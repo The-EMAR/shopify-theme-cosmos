@@ -1,7 +1,8 @@
 {
   "current": {
+    "logo": "shopify:\/\/shop_images\/white-logo-emar.svg",
     "logo_width": 90,
-    "type_header_font": "assistant_n4",
+    "type_header_font": "inter_n7",
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
     "body_scale": 100,
@@ -188,6 +189,17 @@
           "button_label": "#334fb4",
           "secondary_button_label": "#ffffff",
           "shadow": "#121212"
+        }
+      },
+      "scheme-2c9efbd4-0de9-43cf-9e0b-761cabb85af2": {
+        "settings": {
+          "background": "#292929",
+          "background_gradient": "",
+          "text": "#ffffff",
+          "button": "#121212",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#121212",
+          "shadow": "#f91b1b"
         }
       }
     }
