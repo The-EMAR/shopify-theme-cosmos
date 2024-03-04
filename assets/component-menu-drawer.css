@@ -99,7 +99,7 @@ details[open].menu-opening > .menu-drawer__submenu {
   height: 100%;
   padding: 8rem 2rem 2rem 2rem;
   border-radius: 1.6rem;
-  background-color: white;
+  background-color: rgba(var(--color-background),1);
   overflow: hidden;
 }
 

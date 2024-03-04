@@ -1,0 +1,124 @@
+/* Collections Release */
+
+.section-collections-release {}
+
+.section-collections-release .section__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.section-collections-release .section__image img {
+  max-width: 17rem;
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.section-collections-release .section__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Title */
+
+.section-collections-release .section__title {
+  margin: 0;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.section-collections-release .section__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.section-collections-release .section__body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+/* Slider */
+
+.collections-release-slider {
+  /* padding-top: 10rem; */
+}
+
+.splide__pagination--custom {
+  top: 0;
+  left: 0;
+  bottom: unset;
+  display: flex;
+  gap: 4rem;
+}
+
+.splide__pagination--custom .splide__pagination__page {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border-radius: unset;
+  background-color: transparent;
+  color: white;
+}
+
+.splide__pagination--custom .splide__pagination__page.is-active {
+  padding-bottom: .5rem;
+}
+
+.splide__pagination--custom .splide__pagination__page.is-active:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: .3rem;
+  background-color: #F8176F;
+  transform: rotate(-3deg);
+}
+
+/* Thumbnails */
+
+.section__thumbnail-slider {}
+
+.section__thumbnail-slider  .splide__track--nav>.splide__list>.splide__slide.is-active {
+  border: 0;
+}
+
+.section__thumbnail-slider  .splide__track--nav>.splide__list>.splide__slide {
+  position: relative;
+  text-align: center;
+  border: 0;
+  transition: .3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section__thumbnail-slider  .splide__track--nav>.splide__list>.splide__slide>.section__title {
+  /* font-size: 1.8rem; */
+  transition: .3s;
+}
+
+.section__thumbnail-slider  .splide__track--nav>.splide__list>.splide__slide.is-active>.section__title:after {
+  content: '';
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0;
+  width: 100%;
+  height: .3rem;
+  background-color: #F8176F;
+  transform: rotate(-4deg);
+  transition: .3s;
+}
+
+.section__thumbnail-slider  .splide__track--nav>.splide__list>.splide__slide.is-active>.section__title {
+  /* font-size: 2.6rem; */
+  transform: scale(1.3);
+}
