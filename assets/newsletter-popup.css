@@ -32,6 +32,7 @@
 .newsletter-popup .newsletter-popup__image {
   position: relative;
   min-height: 22.5rem;
+  margin-bottom: 2rem;
 }
 
 .newsletter-popup svg {
@@ -41,7 +42,7 @@
 .newsletter-popup .newsletter-popup__inner {
   position: relative;
   overflow: hidden;
-  border-radius: var(--border-radius);
+  border-radius: var(--inputs-radius);
   box-shadow: var(--popup-shadow-horizontal-offset) var(--popup-shadow-vertical-offset) var(--popup-shadow-blur-radius) rgba(var(--color-shadow), var(--popup-shadow-opacity));
 }
 
@@ -91,7 +92,7 @@
 }
 
 .newsletter-popup .newsletter-popup__content h3 {
-  margin: 2rem 0 0;
+  margin: 0;
   width: 100%;
 }
 

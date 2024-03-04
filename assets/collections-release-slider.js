@@ -72,12 +72,13 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   var thumbnails = new Splide('#thumbnail-slider', {
-    perPage: 3,
-    rewind: true,
+    perPage: 1,
+    focus: 'center',
+    trimSpace: false,
+    gap: 20,
     pagination: false,
     arrows: false,
     isNavigation: true,
-    focus: 'center',
     height: 50
   });
 

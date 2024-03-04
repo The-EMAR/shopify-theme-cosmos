@@ -10,6 +10,8 @@
 
 .section-collections-release .section__image img {
   max-width: 17rem;
+  min-height: 18rem;
+  max-height: 18rem;
   width: 100%;
   height: 100%;
   vertical-align: top;
@@ -32,6 +34,7 @@
   position: relative;
   padding-bottom: 1rem;
 }
+
 
 .section-collections-release .section__inner {
   display: flex;

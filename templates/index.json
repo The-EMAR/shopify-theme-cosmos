@@ -1,21 +1,40 @@
 {
   "sections": {
-    "hero_r8ekdq": {
-      "type": "hero",
+    "collections_release_qGeAqV": {
+      "type": "collections-release",
+      "blocks": {
+        "collection_e4GJh3": {
+          "type": "collection",
+          "settings": {
+            "collection": "emar"
+          }
+        },
+        "collection_W8ttJc": {
+          "type": "collection",
+          "settings": {
+            "collection": "батерии"
+          }
+        },
+        "collection_LeVndp": {
+          "type": "collection",
+          "settings": {
+            "collection": "инвертори"
+          }
+        }
+      },
+      "block_order": [
+        "collection_e4GJh3",
+        "collection_W8ttJc",
+        "collection_LeVndp"
+      ],
       "settings": {
-        "heading": "Най-нови",
-        "content": "<p>Описание<\/p>",
-        "slide_media": "contain",
-        "collections": [
-          "кейсове"
-        ],
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-4e647fb5-3863-4263-90c3-a8fe98f7ecba",
         "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
-    "hero_r8ekdq"
+    "collections_release_qGeAqV"
   ]
 }

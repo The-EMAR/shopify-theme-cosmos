@@ -644,7 +644,8 @@ a.active-facets__button.focused .active-facets__button-inner,
   right: 0;
   bottom: 0;
   z-index: 100;
-  background-color: rgba(var(--color-foreground), 0.5);
+  background-color: #00000036;
+  backdrop-filter: blur(1rem);
   pointer-events: none;
 }
 

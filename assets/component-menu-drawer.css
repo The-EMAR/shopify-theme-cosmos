@@ -31,6 +31,7 @@ menu-drawer > details[open] > summary::before {
   height: 100vh;
   padding: 2rem 2rem;
   background: #00000036;
+  backdrop-filter: blur(1rem);
   /* position: absolute; */
   position: fixed;
   transform: translateX(-100%);

@@ -38,7 +38,7 @@
 
 .card--card {
   height: 100%;
-  padding: 2rem 2rem 1rem;
+  /* padding: 2rem 2rem 1rem; */
 }
 
 .card--card,
@@ -86,13 +86,13 @@
 }
 
 .card .card__inner {
-  background-color: white;
+  /* background-color: white; */
   border-radius: var(--border-radius);
 }
 
 .card .card__inner .card__media {
   overflow: hidden;
-  background-color: white;
+  /* background-color: white; */
   /* Fix for Safari border bug on hover */
   z-index: 0;
   border-radius: calc(var(--border-radius) - var(--border-width) - var(--image-padding));
@@ -137,13 +137,13 @@
 
 .card--media .card__inner .card__content {
   position: relative;
-  padding: calc(var(--image-padding) + 1rem);
+  padding: calc(var(--image-padding));
 }
 
 .card__content {
   display: grid;
   grid-template-rows: minmax(0, 1fr) max-content minmax(0, 1fr);
-  padding: 3rem 0;
+  padding: 1rem 0;
   width: 100%;
   flex-grow: 1;
 }
@@ -182,6 +182,7 @@
   text-transform: uppercase;
   font-size: 1.1rem;
   font-weight: 600;
+  display: none;
 }
 
 .card__badge.top {
@@ -191,7 +192,7 @@
 
 .card__badge.right {
   justify-self: flex-end;
-  margin: -2rem -2rem 0 0;
+  /* margin: -2rem -2rem 0 0; */
 }
 
 .card:not(.card--horizontal) > .card__content > .card__badge {
