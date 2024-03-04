@@ -1,0 +1,33 @@
+.services {
+  padding: 2.5rem 0;
+}
+
+.services h3 {
+  font-weight: 600;
+}
+
+.services i {
+  font-size: 4rem;
+  color: black;
+}
+
+.services ul {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
+}
+
+/* Tablet */
+@media (max-width: 1023px) {
+  .services ul {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  
+}

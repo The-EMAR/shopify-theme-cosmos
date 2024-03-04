@@ -1,0 +1,75 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "newsletter-popup": {
+      "type": "newsletter-popup",
+      "settings": {
+        "title": "Subscribe to newsletter",
+        "entry": "Subscribe to our newsleeter so you don't miss anything good.",
+        "image": "shopify:\/\/shop_images\/f24effff-b38b-45b3-be62-d6bde4b9c3a4_135a120f-ed16-4aee-b2b2-2140158b6975.jpg",
+        "color_scheme": ""
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "menu_y39Hg9": {
+          "type": "menu",
+          "settings": {
+            "menu_heading": "Menu 1",
+            "menu": "footer"
+          }
+        },
+        "menu_zJ39fL": {
+          "type": "menu",
+          "disabled": true,
+          "settings": {
+            "menu_heading": "Menu 2",
+            "menu": "footer"
+          }
+        },
+        "menu_diwAXY": {
+          "type": "menu",
+          "disabled": true,
+          "settings": {
+            "menu_heading": "Menu 3",
+            "menu": "footer"
+          }
+        },
+        "menu_Pc93AF": {
+          "type": "menu",
+          "disabled": true,
+          "settings": {
+            "menu_heading": "Menu 4",
+            "menu": "footer"
+          }
+        }
+      },
+      "block_order": [
+        "menu_y39Hg9",
+        "menu_zJ39fL",
+        "menu_diwAXY",
+        "menu_Pc93AF"
+      ],
+      "settings": {
+        "logo": "shopify:\/\/shop_images\/white-logo-emar.svg",
+        "description": "<p>Описание на фирмата<\/p>",
+        "contact_heading": "Контакти",
+        "contact_phone": "<p><a href=\"tel:+359999999\" title=\"tel:+359999999\">+359 999 999<br\/>+359 999 999<\/a><\/p>",
+        "contact_email": "<p><a href=\"mailto:test@example.com\" title=\"mailto:test@example.com\">test@example.com<\/a><\/p>",
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": true,
+        "show_social": true,
+        "color_scheme": "scheme-4e647fb5-3863-4263-90c3-a8fe98f7ecba",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "newsletter-popup",
+    "footer"
+  ]
+}
