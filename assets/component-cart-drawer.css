@@ -40,11 +40,16 @@
   flex-direction: column;
 }
 
+.drawer__inner-empty .drawer__close {
+  right: -1rem !important;
+}
+
 .cart-drawer__warnings {
   display: flex;
   flex-direction: column;
   flex: 1;
   justify-content: center;
+  position: relative;
 }
 
 cart-drawer.is-empty .drawer__inner {
@@ -84,7 +89,7 @@ cart-drawer:not(.is-empty) .cart-drawer__collection {
 }
 
 .drawer__heading {
-  margin: 0 0 1rem;
+  margin: 0.8rem 0;
 }
 
 .drawer__close {

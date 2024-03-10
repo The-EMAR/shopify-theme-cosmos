@@ -12,7 +12,7 @@
 {%- unless product.has_only_default_variant -%}
   <variant-selects
     id="variant-selects-{{ section.id }}"
-    class="no-js-hidden"
+    class="{{ class }} no-js-hidden"
     data-section="{{ section.id }}"
     data-url="{{ product.url }}"
     {% if update_url == false %}
@@ -51,6 +51,7 @@
       {%- elsif picker_type == 'button' -%}
         <fieldset class="js product-form__input product-form__input--pill">
           <legend class="form__label">{{ option.name }}</legend>
+
           {% render 'product-variant-options',
             product: product,
             option: option,
@@ -58,6 +59,20 @@
             picker_type: picker_type
           %}
         </fieldset>
+        
+        <modal-opener
+          class="product-popup-modal__opener no-js-hidden quick-add-hidden"
+          data-modal="#PopupModal-{{ block.id }}"
+        >
+          <button
+            id="ProductPopup-{{ block.id }}"
+            class="product-popup-modal__button link"
+            type="button"
+            aria-haspopup="dialog"
+          >
+            {{ block.settings.variant_text | default: block.settings.variant_page.title }}
+          </button>
+        </modal-opener>
       {%- else -%}
         <div class="product-form__input product-form__input--dropdown">
           <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">

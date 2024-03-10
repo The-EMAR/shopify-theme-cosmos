@@ -1,0 +1,9 @@
+{%-
+  liquid
+  assign src = src | default: false
+  assign width = width | default: 'auto'
+-%}
+
+<div class="media">
+  <img src="{{ src | image_url: width: width }}" class="lazyload" alt="">
+</div>

@@ -133,12 +133,15 @@ details[open].menu-opening > .menu-drawer__submenu {
 
 .menu-drawer__heading .h5 {
   font-weight: 600;
-  margin: 0;
+  margin: 0 0 0 1rem;
 }
 
 .menu-drawer__navigation {
   /* padding: 3rem 0; */
   padding: 0 0 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .menu-drawer__inner-submenu {

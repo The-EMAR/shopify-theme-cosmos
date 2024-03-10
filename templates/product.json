@@ -17,7 +17,9 @@
           "type": "variant_picker",
           "settings": {
             "picker_type": "button",
-            "swatch_shape": "circle"
+            "swatch_shape": "circle",
+            "variant_text": "Таблица",
+            "variant_page": "sizes"
           }
         },
         "quantity_selector": {
@@ -32,6 +34,18 @@
             "show_gift_card_recipient": true
           }
         },
+        "icon_with_text_HgQjrc": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "star",
+            "heading_1": "100% Памук",
+            "icon_2": "return",
+            "heading_2": "30 Дни право на връщане",
+            "icon_3": "truck",
+            "heading_3": "Heading"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -44,6 +58,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "icon_with_text_HgQjrc",
         "description"
       ],
       "settings": {
@@ -72,7 +87,7 @@
         "color_scheme": "scheme-4e647fb5-3863-4263-90c3-a8fe98f7ecba",
         "image_ratio": "square",
         "image_shape": "default",
-        "show_secondary_image": true,
+        "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
         "columns_mobile": "2",

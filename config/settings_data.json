@@ -94,7 +94,7 @@
     "drawer_shadow_vertical_offset": 4,
     "drawer_shadow_blur": 5,
     "badge_corner_radius": 16,
-    "sale_badge_color_scheme": "scheme-1",
+    "sale_badge_color_scheme": "scheme-64cf309f-eef7-4f5e-9b61-046ae22c1b0b",
     "sold_out_badge_color_scheme": "scheme-3",
     "brand_headline": "",
     "brand_description": "<p><\/p>",
@@ -117,8 +117,9 @@
     "show_cart_note": false,
     "cart_drawer_collection": "",
     "cart_color_scheme": "scheme-4e647fb5-3863-4263-90c3-a8fe98f7ecba",
+    "checkout_logo_image": "shopify:\/\/shop_images\/white-logo-emar.svg",
     "checkout_logo_position": "center",
-    "checkout_logo_size": "medium",
+    "checkout_logo_size": "small",
     "checkout_body_background_color": "#292929",
     "checkout_input_background_color_mode": "transparent",
     "checkout_sidebar_background_color": "#292929",
@@ -264,6 +265,19 @@
           "button_hover": "#121212",
           "button_label": "#ffffff",
           "secondary_button_label": "#f8176f",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-64cf309f-eef7-4f5e-9b61-046ae22c1b0b": {
+        "settings": {
+          "background": "#f8176f",
+          "background_secondary": "#ffffff",
+          "background_gradient": "",
+          "text": "#ffffff",
+          "button": "#f8176f",
+          "button_hover": "#121212",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#121212",
           "shadow": "#121212"
         }
       }

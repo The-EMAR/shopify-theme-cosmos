@@ -1146,7 +1146,7 @@ summary::-webkit-details-marker {
 .media>img {
   object-fit: cover;
   object-position: center center;
-  transition: opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  /* transition: opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94); */
 }
 
 .media--square {
@@ -1165,6 +1165,17 @@ summary::-webkit-details-marker {
   padding-bottom: 56%;
 }
 
+.media--logo {
+  padding-bottom: 20%;
+}
+
+/* Tablet */
+@media (max-width: 1023px) {
+  .media--logo {
+    padding-bottom: 72%;
+  }
+}
+
 .media--16-9 {
   padding-bottom: 56.25%;
 }
@@ -1180,12 +1191,27 @@ summary::-webkit-details-marker {
 
 @media screen and (min-width: 990px) {
   .media--cropped {
-    padding-bottom: 63%;
+    padding-bottom: 20%;
   }
 }
 
 deferred-media {
   display: block;
+}
+
+/* Custom media */
+
+.media .lazyload,
+.media .lazyloading {
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.2);
+}
+
+.media .lazyloaded {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
 }
 
 /* component-button */
@@ -1214,7 +1240,8 @@ button.shopify-payment-button__button--unbranded,
   --shadow-blur-radius: var(--buttons-shadow-blur-radius);
   --shadow-opacity: var(--buttons-shadow-opacity);
   --shadow-visible: var(--buttons-shadow-visible);
-  --border-offset: var(--buttons-border-offset); /* reduce radius edge artifacts */
+  --border-offset: var(--buttons-border-offset);
+  /* reduce radius edge artifacts */
   --border-opacity: calc(1 - var(--buttons-border-opacity));
   border-radius: var(--buttons-radius-outset);
   position: relative;
@@ -1233,8 +1260,7 @@ button.shopify-payment-button__button--unbranded {
 }
 
 .cart__dynamic-checkout-buttons iframe {
-  box-shadow: var(--shadow-horizontal-offset) var(--shadow-vertical-offset) var(--shadow-blur-radius)
-    rgba(var(--color-shadow), var(--shadow-opacity));
+  box-shadow: var(--shadow-horizontal-offset) var(--shadow-vertical-offset) var(--shadow-blur-radius) rgba(var(--color-shadow), var(--shadow-opacity));
 }
 
 .button,
@@ -1270,8 +1296,7 @@ button.shopify-payment-button__button--unbranded {
   left: 0;
   z-index: -1;
   border-radius: var(--buttons-radius-outset);
-  box-shadow: var(--shadow-horizontal-offset) var(--shadow-vertical-offset) var(--shadow-blur-radius)
-    rgba(var(--color-shadow), var(--shadow-opacity));
+  box-shadow: var(--shadow-horizontal-offset) var(--shadow-vertical-offset) var(--shadow-blur-radius) rgba(var(--color-shadow), var(--shadow-opacity));
 }
 
 .button:after,
@@ -1286,8 +1311,7 @@ button.shopify-payment-button__button--unbranded {
   left: var(--buttons-border-width);
   z-index: 1;
   border-radius: var(--buttons-radius);
-  box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset))
-      rgba(var(--color-button-text), var(--border-opacity)),
+  box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)),
     0 0 0 var(--buttons-border-width) rgba(var(--color-button), var(--alpha-button-background));
   transition: box-shadow var(--duration-short) ease;
 }
@@ -1297,8 +1321,7 @@ button.shopify-payment-button__button--unbranded {
 .customer button:hover::after,
 .shopify-payment-button__button--unbranded:hover::after {
   --border-offset: 1.3px;
-  box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset))
-      rgba(var(--color-button-text), var(--border-opacity)),
+  box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)),
     0 0 0 calc(var(--buttons-border-width) + 1px) rgba(var(--color-button), var(--alpha-button-background));
 }
 
@@ -1379,7 +1402,7 @@ button.shopify-payment-button__button--unbranded {
   }
 }
 
-.button.loading > .loading__spinner {
+.button.loading>.loading__spinner {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -1389,11 +1412,11 @@ button.shopify-payment-button__button--unbranded {
   align-items: center;
 }
 
-.button.loading > .loading__spinner .spinner {
+.button.loading>.loading__spinner .spinner {
   width: fit-content;
 }
 
-.button.loading > .loading__spinner .path {
+.button.loading>.loading__spinner .path {
   stroke: rgb(var(--color-button-text));
 }
 
@@ -3372,6 +3395,85 @@ details-disclosure>details {
 
 /* Element Hovers: Vertical Lift, 3d Lift */
 
+/* Main Product */
+
+.animate--hover-3d-lift .product-media-container {
+  position: relative;
+  /* animation: hoverLoop2 5s infinite; */
+  /* animation-timing-function: linear; */
+  transition: transform var(--duration-extended) ease, box-shadow var(--duration-long) ease !important;
+  /* transform: rotate(-1deg); */
+  /* transform: rotate3d(-1, 9, 0, 35deg); */
+}
+
+@keyframes hoverLoop2 {
+  0% {
+    transform: rotate(-1deg)
+  }
+
+  25% {
+    transform: rotate3d(1, 0, 0, -5deg);
+  }
+
+  50% {
+    transform: rotate(1deg);
+  }
+
+  75% {
+    /* transform: rotate3d(1, 0, 0, -15deg); */
+  }
+
+  100% {
+    transform: rotate(-1deg)
+  }
+}
+
+
+@keyframes hoverLoop {
+  0% {
+    transform: rotate3d(9, 0, 1, 5deg);
+  }
+
+  25% {
+    /* transform: rotate3d(1, 0, 0, 15deg); */
+  }
+
+  50% {
+    transform: rotate3d(1, 1, 0, 0deg);
+  }
+
+  75% {
+    /* transform: rotate3d(1, 1, 0, 20deg); */
+  }
+
+  100% {
+    transform: rotate3d(9, 0, 1, 5deg);
+  }
+}
+
+/* 
+@keyframes hoverLoop {
+  0% {
+    transform: rotate3d(0, 1, 0, 5deg);
+  }
+
+  25% {
+    transform: rotate3d(0, 0, 1, -1deg);
+  }
+
+  50% {
+    transform: rotate3d(0, 1, 0, -5deg);
+  }
+
+  75% {
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+
+  100% {
+    transform: rotate3d(0, 1, 0, 5deg);
+  }
+} */
+
 @media (prefers-reduced-motion: no-preference) and (hover: hover) {
 
   .animate--hover-3d-lift .card-wrapper .card--card,
@@ -3559,4 +3661,45 @@ details-disclosure>details {
 
 .ht-tms-single-dropdown__container.ht-tms-single-selector {
   z-index: 2 !important;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .ht-tms-single-dropdown__container.ht-tms-single-selector {
+    z-index: 1 !important;
+    order: 2;
+  }
+
+  #menu-drawer .menu-drawer__navigation .ht-tms-selector {
+    margin: 0 !important;
+  }
+}
+
+/* Product Variant Sizes */
+
+.variant-sizes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.variant-sizes > fieldset {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+/* Table */
+
+table {
+  width: 100%;
+}
+
+th {
+  padding-right: 2rem;
+}
+
+td {
+  padding-right: 2rem;
 }

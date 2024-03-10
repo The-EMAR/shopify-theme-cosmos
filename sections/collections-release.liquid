@@ -21,9 +21,20 @@
 {% assign _section = section.settings %}
 {% assign _blocks = section.blocks %}
 
-{% if _blocks.size > 0 %}
+{% if _blocks.size > 0 or _section.image != blank %}
   <section class="section-collections-release section-{{ section.id }}-padding color-{{ section.settings.color_scheme }}">
     <div class="page-width">
+      {% if _section.image != blank %}
+        <header class="section__head">
+          <div class="section__image">
+            <div class="media media--transparent media--logo section__media">
+              {% assign src = _section.image | img_url: 'medium' %}
+              {% render 'image' src: src %}
+            </div><!-- /.media -->
+          </div><!-- /.section__image -->
+        </header><!-- /.section__head -->
+      {% endif %}
+
       <div class="section__wrapper">
         <div id="thumbnail-slider" class="splide section__thumbnail-slider">
           <div class="splide__track">
@@ -44,7 +55,6 @@
           </div>
         </div>
 
-
         <collections-release-slider style="display: block;" class="splide collections-release-slider">
           <ul class="splide__pagination" role="tablist" aria-label="Select a slide to show"></ul>
 
@@ -56,15 +66,7 @@
                 
                 {% if _collection.products != blank %}
                   <li class="splide__slide" data-title="{{ _collection.title }}">
-                    <div class="section__inner">
-                      {% if _collection.image %}
-                        <header class="section__head">
-                          <div class="section__image">
-                            <img src="{{ _collection.image | image_url: width: 400 }}" loading="lazy" alt="{{ collection.title }}">
-                          </div><!-- /.section__image -->
-                        </header><!-- /.section__head -->
-                      {% endif %}
-  
+                    <div class="section__inner">  
                       <div class="section__body">
                         {% for product in _collection.products  %}
                           {% render 'card-product',
@@ -94,6 +96,11 @@
   {
   "name": "Collections Release",
   "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
     {
       "type": "color_scheme",
       "id": "color_scheme",

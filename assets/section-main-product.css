@@ -230,6 +230,7 @@
 .product__info-container .product__description,
 .product__info-container .icon-with-text {
   margin: 2.5rem 0;
+  padding: 1rem 0;
 }
 
 .product__text {
@@ -775,8 +776,9 @@ a.product__text {
   left: 0;
   overflow: auto;
   width: 100%;
-  background: rgba(var(--color-foreground), 0.2);
+  background: #00000036;
   height: 100%;
+  backdrop-filter: blur(1rem);
 }
 
 .product-popup-modal[open] {
@@ -858,10 +860,14 @@ a.product__text {
 }
 
 .product-popup-modal__button {
-  font-size: 1.6rem;
+  /* font-size: 1.6rem; */
+  font-size: 1rem;
+  letter-spacing: 0.07rem;
+  line-height: calc(1 + 0.7 / var(--font-body-scale));
   padding-right: 1.3rem;
   padding-left: 0;
-  min-height: 4.4rem;
+  /* min-height: 4.4rem; */
+  min-height: auto;
   text-underline-offset: 0.3rem;
   text-decoration-thickness: 0.1rem;
   transition: text-decoration-thickness var(--duration-short) ease;
@@ -873,6 +879,7 @@ a.product__text {
 
 .product-popup-modal__content-info {
   padding-right: 4.4rem;
+  margin-top: 2rem;
 }
 
 .product-popup-modal__content-info > * {
@@ -886,6 +893,10 @@ a.product__text {
   .product-popup-modal__content-info > * {
     max-height: 100%;
   }
+}
+
+.product-popup-modal__content-info > .h2 {
+  margin-bottom: 2rem;
 }
 
 .product-popup-modal__toggle {
@@ -1214,6 +1225,13 @@ a.product__text {
 }
 
 /* Icon with text */
+
+/* Icons */
+
+.icon--star {
+  fill: goldenrod !important;
+}
+
 .icon-with-text {
   --icon-size: calc(var(--font-heading-scale) * 3rem);
   --icon-spacing: calc(var(--font-heading-scale) * 1rem);
