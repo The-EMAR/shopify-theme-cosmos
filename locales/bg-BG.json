@@ -60,6 +60,8 @@
   "newsletter": {
     "label": "Имейл",
     "success": "Благодарим, че се абонирахте",
+    "discount": "ПРОМО КОД: 300220",
+    "email": "Успешно активиран промо код. Моля проверете си пощата преди да продължите.",
     "button_label": "Абониране"
   },
   "accessibility": {
@@ -154,7 +156,7 @@
       },
       "view_full_details": "Покажи пълните подробности",
       "include_taxes": "С включени данъци.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Доставката<\/a> и <a href=\"{{ link }}\">отстъпките<\/a> се изчисляват при плащане.",
+      "shipping_policy_html": "<span class=\"link link--no-uderline\">Доставката<\/span> и <span class=\"link link--no-uderline\">отстъпките<\/span> се изчисляват при плащане.",
       "choose_options": "Изберете опции",
       "choose_product_options": "Изберете опции за {{ product_name }}",
       "value_unavailable": "{{ option_value }} – неналично",

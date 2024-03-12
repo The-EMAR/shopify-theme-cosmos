@@ -3,6 +3,7 @@
     "main": {
       "type": "main-register",
       "settings": {
+        "color_scheme": "scheme-4e647fb5-3863-4263-90c3-a8fe98f7ecba",
         "padding_top": 36,
         "padding_bottom": 36
       }

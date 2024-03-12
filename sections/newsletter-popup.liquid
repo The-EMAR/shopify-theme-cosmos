@@ -1,4 +1,5 @@
 {{- 'newsletter-popup.css' | asset_url | stylesheet_tag -}}
+{{- 'component-newsletter.css' | asset_url | stylesheet_tag -}}
 
 <script src="{{- 'cookies.js' | asset_url -}}" defer="defer"></script>
 <script src="{{- 'newsletter-popup.js' | asset_url -}}" defer="defer"></script>
@@ -7,31 +8,37 @@
     or section.settings.entry != blank
     or section.settings.image != blank
 -%}
-  <div class="newsletter-popup hide">
+  <div id="newsletter-popup" class="newsletter-popup hide">
     <div class="newsletter-popup__inner color-{{ section.settings.color_scheme }} gradient">
       <span class="newsletter-popup__close">{% render 'icon-close' %}</span>
   
       <div class="newsletter-popup__grid">
         <div class="grid__item">
           <div class="newsletter-popup__content">
-            {%- if section.settings.title != blank -%}
-              <h3 class="newsletter-popup__title">
-                {{- section.settings.title -}}
-              </h3><!-- /.newsletter-popup__title -->
-            {%- endif -%}
-  
-            {%- if section.settings.entry != blank -%}
-              <div class="newsletter-popup__entry">
-                {{- section.settings.entry -}}
-              </div><!-- /.newsletter-popup__entry -->
-            {%- endif -%}
-  
             <div class="newsletter-popup__form">
               {% form 'customer', class: 'newsletter-form newsletter-form--custom' %}
                 <input type="hidden" name="contact[tags]" value="newsletter">
+
+                {% if form.posted_successfully? %}
+                  
+                {% else %}
+                  
+                {% endif %}
+                {%- if section.settings.title != blank -%}
+                  <h3 class="newsletter-popup__title {% if form.posted_successfully? %}hidden {% endif %}">
+                    {{- section.settings.title -}}
+                  </h3><!-- /.newsletter-popup__title -->
+                {%- endif -%}
+      
+                {%- if section.settings.entry != blank -%}
+                  <div class="newsletter-popup__entry {% if form.posted_successfully? %}hidden {% endif %}">
+                    {{- section.settings.entry -}}
+                  </div><!-- /.newsletter-popup__entry -->
+                {%- endif -%}
+      
                 
                 <div class="newsletter-form__field-wrapper">
-                  <div class="field">
+                  <div class="field {% if form.posted_successfully? %}hidden {% endif %}">
                     <input
                       id="NewsletterForm--{{ section.id }}"
                       type="email"
@@ -65,6 +72,7 @@
                       {% render 'icon-arrow' %}
                     </button>
                   </div>
+
                   {%- if form.errors -%}
                     <small class="newsletter-form__message form__message" id="Newsletter-error--{{ section.id }}">
                       {%- render 'icon-error' -%}
@@ -81,7 +89,8 @@
                     autofocus
                   >
                     {% render 'icon-success' -%}
-                    {{- 'newsletter.success' | t }}
+
+                    {{- 'newsletter.email' | t }}
                   </h3>
                 {%- endif -%}
               {% endform %}

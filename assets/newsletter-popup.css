@@ -88,12 +88,20 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
-  padding: 2rem;
+  padding: 2rem 8rem 2rem 2rem;
 }
 
 .newsletter-popup .newsletter-popup__content h3 {
   margin: 0;
   width: 100%;
+}
+
+.newsletter-popup .newsletter-popup__content .newsletter-popup__title {
+  margin-bottom: 1rem;
+}
+
+.newsletter-popup .newsletter-popup__content .newsletter-popup__entry {
+  margin-bottom: 1rem;
 }
 
 /* Mobile */

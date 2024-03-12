@@ -5,8 +5,8 @@
     "newsletter-popup": {
       "type": "newsletter-popup",
       "settings": {
-        "title": "Subscribe to newsletter",
-        "entry": "Subscribe to our newsleeter so you don't miss anything good.",
+        "title": "20% ОТСТЪПКА ЗА ВСИЧКИ ПРОДУКТИ",
+        "entry": "Грабни отстъпката като си въведеш имейла.",
         "color_scheme": "scheme-2"
       }
     },

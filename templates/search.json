@@ -3,6 +3,7 @@
     "main": {
       "type": "main-search",
       "settings": {
+        "color_scheme": "scheme-4e647fb5-3863-4263-90c3-a8fe98f7ecba",
         "columns_desktop": 4,
         "image_ratio": "adapt",
         "image_shape": "default",

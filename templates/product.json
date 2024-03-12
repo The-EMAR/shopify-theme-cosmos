@@ -13,6 +13,12 @@
           "settings": {
           }
         },
+        "scroll_to_bottom_HyDLgp": {
+          "type": "scroll_to_bottom",
+          "settings": {
+            "scroll_to_bottom_text": "Вземи 20% отстъпка"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -39,27 +45,48 @@
           "settings": {
             "layout": "horizontal",
             "icon_1": "star",
-            "heading_1": "100% Памук",
-            "icon_2": "return",
-            "heading_2": "30 Дни право на връщане",
-            "icon_3": "truck",
-            "heading_3": "Heading"
+            "heading_1": "За теб",
+            "icon_2": "dryer",
+            "heading_2": "Авторски дизайн",
+            "icon_3": "price_tag",
+            "heading_3": "Лимитирана серия"
           }
         },
         "description": {
           "type": "description",
           "settings": {
           }
+        },
+        "collapsible_tab_NdwkMg": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Доставка и преглед",
+            "icon": "none",
+            "content": "<ol><li><strong>Обработка на поръчката:<\/strong> Вашата поръчка ще бъде обработена в рамките на 1-2 работни дни.<\/li><li><strong>Доставка:<\/strong> Ще получите известие, когато вашата поръчка е изпратена. Доставката обикновено отнема 1-3 работни дни.<\/li><li><strong>Преглед и тест:<\/strong> При получаване на поръчката, проверете за повреди или несъответствия. В случай на проблем, можете да се свържете с нас за връщане или замяна.<\/li><\/ol>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_Pi6RUp": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Право на връщане",
+            "icon": "none",
+            "content": "<ul><li><strong>Срок за връщане:<\/strong> Можете да върнете продукт в рамките на 30 дни от датата на получаване.<\/li><li><strong>Условия за връщане:<\/strong> Продуктът трябва да е в оригиналната си опаковка, без следи от употреба.<\/li><li><strong>Замяна на продукт:<\/strong> Можете да замените продукт за друг размер, цвят или модел.<\/li><li><strong>Връщане на сума:<\/strong> Връщането на сумата се извършва в рамките на 30 дни от датата на получаване на върнатия продукт.<\/li><\/ul>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "title",
         "price",
+        "scroll_to_bottom_HyDLgp",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "icon_with_text_HgQjrc",
-        "description"
+        "description",
+        "collapsible_tab_NdwkMg",
+        "collapsible_tab_Pi6RUp"
       ],
       "settings": {
         "enable_sticky_info": true,

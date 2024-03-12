@@ -423,6 +423,7 @@ class MenuDrawer extends HTMLElement {
     setTimeout(() => {
       this.mainDetailsToggle.classList.add('menu-opening');
     });
+    
     summaryElement.setAttribute('aria-expanded', true);
     trapFocus(this.mainDetailsToggle, summaryElement);
     document.body.classList.add(`overflow-hidden-${this.dataset.breakpoint}`);
@@ -1286,3 +1287,27 @@ class ProductRecommendations extends HTMLElement {
 }
 
 customElements.define('product-recommendations', ProductRecommendations);
+
+
+// PDP scroll to bottom
+
+window.addEventListener("DOMContentLoaded",()=>{
+  const backToBottom = document.querySelector('.scroll-to-bottom');
+
+  if (getCookie('newsletter-subscribed')) {
+    console.log('here');
+    backToBottom.classList.add('hidden');
+    return;
+  }
+
+  if (backToBottom) {
+    backToBottom.addEventListener('click', event => {
+      event.preventDefault();
+  
+      window.scrollTo({
+        top: document.documentElement.scrollHeight - window.innerHeight,
+        behavior: "smooth"
+      });
+    })
+  }
+});

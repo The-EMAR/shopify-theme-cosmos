@@ -117,6 +117,7 @@
     "show_cart_note": false,
     "cart_drawer_collection": "",
     "cart_color_scheme": "scheme-4e647fb5-3863-4263-90c3-a8fe98f7ecba",
+    "checkout_header_image": "shopify:\/\/shop_images\/EMAR_CARDS_3.png",
     "checkout_logo_image": "shopify:\/\/shop_images\/white-logo-emar.svg",
     "checkout_logo_position": "center",
     "checkout_logo_size": "small",

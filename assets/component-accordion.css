@@ -43,10 +43,12 @@
 }
 
 .accordion details[open] > summary .icon-caret {
+  transition: .3s;
   transform: rotate(180deg);
 }
 
 .accordion__content {
+  transition: .3s;
   margin-bottom: 1.5rem;
   word-break: break-word;
   overflow-x: auto;
