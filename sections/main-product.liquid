@@ -120,9 +120,10 @@
                   {%- if cart.taxes_included -%}
                     {{ 'products.product.include_taxes' | t }}
                   {%- endif -%}
-                  {%- if shop.shipping_policy.body != blank -%}
+
+                  {% comment %} {%- if shop.shipping_policy.body != blank -%} {% endcomment %}
                     {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
-                  {%- endif -%}
+                  {% comment %} {%- endif -%} {% endcomment %}
                 </div>
               <div {{ block.shopify_attributes }}>
                 {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}

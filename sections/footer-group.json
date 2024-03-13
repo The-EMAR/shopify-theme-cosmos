@@ -5,58 +5,19 @@
     "newsletter-popup": {
       "type": "newsletter-popup",
       "settings": {
-        "title": "20% ОТСТЪПКА ЗА ВСИЧКИ ПРОДУКТИ",
-        "entry": "Грабни отстъпката като си въведеш имейла.",
+        "title": "ГРАБНИ 20% ОТСТЪПКА ЗА ПЪРВА ПОРЪЧКА",
+        "entry": "",
         "color_scheme": "scheme-2"
       }
     },
     "footer": {
       "type": "footer",
-      "blocks": {
-        "menu_y39Hg9": {
-          "type": "menu",
-          "settings": {
-            "menu_heading": "Menu 1",
-            "menu": "footer"
-          }
-        },
-        "menu_zJ39fL": {
-          "type": "menu",
-          "disabled": true,
-          "settings": {
-            "menu_heading": "Menu 2",
-            "menu": "footer"
-          }
-        },
-        "menu_diwAXY": {
-          "type": "menu",
-          "disabled": true,
-          "settings": {
-            "menu_heading": "Menu 3",
-            "menu": "footer"
-          }
-        },
-        "menu_Pc93AF": {
-          "type": "menu",
-          "disabled": true,
-          "settings": {
-            "menu_heading": "Menu 4",
-            "menu": "footer"
-          }
-        }
-      },
-      "block_order": [
-        "menu_y39Hg9",
-        "menu_zJ39fL",
-        "menu_diwAXY",
-        "menu_Pc93AF"
-      ],
       "settings": {
         "logo": "shopify:\/\/shop_images\/white-logo-emar.svg",
-        "description": "<p>Описание на фирмата<\/p>",
+        "description": "<p>✩ Пожелай си нещо ✩<\/p>",
         "contact_heading": "Контакти",
-        "contact_phone": "<p><a href=\"tel:+359999999\" title=\"tel:+359999999\">+359 999 999<br\/>+359 999 999<\/a><\/p>",
-        "contact_email": "<p><a href=\"mailto:test@example.com\" title=\"mailto:test@example.com\">test@example.com<\/a><\/p>",
+        "contact_phone": "<p><a href=\"mailto:emar.boutique.dm@gmail.com\" title=\"mailto:emar.boutique.dm@gmail.com\">emar.boutique.dm@gmail.com<\/a><\/p>",
+        "contact_email": "<p><a href=\"tel:+359894937780\" title=\"tel:+359894937780\">+359 894937780<\/a><\/p>",
         "enable_language_selector": true,
         "payment_enable": true,
         "show_policy": true,

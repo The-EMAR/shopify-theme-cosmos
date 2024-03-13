@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   var thumbnails = new Splide('#thumbnail-slider', {
-    perPage: 3,
+    perPage: 1,
     focus: 'center',
     trimSpace: false,
     gap: 20,

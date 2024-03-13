@@ -6,26 +6,12 @@
         "collection_e4GJh3": {
           "type": "collection",
           "settings": {
-            "collection": "emar"
-          }
-        },
-        "collection_W8ttJc": {
-          "type": "collection",
-          "settings": {
-            "collection": "батерии"
-          }
-        },
-        "collection_LeVndp": {
-          "type": "collection",
-          "settings": {
-            "collection": "инвертори"
+            "collection": "attention"
           }
         }
       },
       "block_order": [
-        "collection_e4GJh3",
-        "collection_W8ttJc",
-        "collection_LeVndp"
+        "collection_e4GJh3"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/EMAR_CARDS_3.png",

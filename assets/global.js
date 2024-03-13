@@ -1293,10 +1293,10 @@ customElements.define('product-recommendations', ProductRecommendations);
 
 window.addEventListener("DOMContentLoaded",()=>{
   const backToBottom = document.querySelector('.scroll-to-bottom');
+  const newsletterPopup = document.querySelector('.newsletter-popup');
 
   if (getCookie('newsletter-subscribed')) {
-    console.log('here');
-    backToBottom.classList.add('hidden');
+    backToBottom?.classList.add('hidden');
     return;
   }
 
@@ -1304,10 +1304,11 @@ window.addEventListener("DOMContentLoaded",()=>{
     backToBottom.addEventListener('click', event => {
       event.preventDefault();
   
-      window.scrollTo({
-        top: document.documentElement.scrollHeight - window.innerHeight,
-        behavior: "smooth"
-      });
+      newsletterPopup?.classList.remove('hide');
+      // window.scrollTo({
+      //   top: document.documentElement.scrollHeight - window.innerHeight,
+      //   behavior: "smooth"
+      // });
     })
   }
 });

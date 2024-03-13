@@ -3409,7 +3409,7 @@ details-disclosure>details {
 
 .animate--hover-3d-lift .product-media-container {
   position: relative;
-  animation: hoverLoop2 9s infinite;
+  animation: hoverLoop2 18s infinite;
   animation-timing-function: linear;
   transition: transform var(--duration-extended) ease, box-shadow var(--duration-long) ease !important;
   /* transform: rotate(-1deg); */
@@ -3728,4 +3728,25 @@ td {
 
 .custom-pdp-list i {
   margin-right: .5rem;
+}
+
+/* Policy CSS */
+
+.shopify-policy__container {
+  padding: 4rem 2rem;
+}
+
+.shopify-policy__container ul {
+  padding: 0;
+}
+
+.shopify-policy__container .shopify-policy__title > h1 {
+  margin-top: 0;
+}
+
+/* Challenge Button */
+
+.shopify-challenge__container .shopify-challenge__button {
+  background: #292929 !important;
+  margin: 1rem auto 0 !important;
 }
