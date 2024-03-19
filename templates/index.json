@@ -8,17 +8,10 @@
           "settings": {
             "collection": "collective"
           }
-        },
-        "collection_e4GJh3": {
-          "type": "collection",
-          "settings": {
-            "collection": "attention"
-          }
         }
       },
       "block_order": [
-        "collection_UGfWnK",
-        "collection_e4GJh3"
+        "collection_UGfWnK"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/EMAR_CARDS_3.png",

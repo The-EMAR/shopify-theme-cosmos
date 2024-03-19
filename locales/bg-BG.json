@@ -108,7 +108,7 @@
   },
   "products": {
     "product": {
-      "add_to_cart": "Добави +",
+      "add_to_cart": "Добави",
       "description": "Описание",
       "on_sale": "Разпродажба",
       "quantity": {

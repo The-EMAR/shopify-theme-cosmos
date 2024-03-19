@@ -25,7 +25,7 @@
             "picker_type": "button",
             "swatch_shape": "circle",
             "variant_text": "Таблица с размери",
-            "variant_page": "sizes"
+            "variant_page": "oversized-размери"
           }
         },
         "quantity_selector": {
@@ -43,13 +43,16 @@
         "icon_with_text_HgQjrc": {
           "type": "icon-with-text",
           "settings": {
-            "layout": "horizontal",
-            "icon_1": "star",
-            "heading_1": "За теб",
-            "icon_2": "dryer",
-            "heading_2": "Авторски дизайн",
-            "icon_3": "price_tag",
-            "heading_3": "Лимитирана серия"
+            "layout": "vertical",
+            "icon_1": "shirt",
+            "image_1": "shopify:\/\/shop_images\/truck-fast-solid.svg",
+            "heading_1": "Безплатна доставка над 70лв",
+            "icon_2": "return",
+            "image_2": "shopify:\/\/shop_images\/arrow-right-arrow-left-solid.svg",
+            "heading_2": "30 дни право на връщане",
+            "icon_3": "truck",
+            "image_3": "shopify:\/\/shop_images\/gem-regular_1.svg",
+            "heading_3": "Високи стандарти за качество"
           }
         },
         "description": {

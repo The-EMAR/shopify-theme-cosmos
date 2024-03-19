@@ -153,7 +153,7 @@ cart-drawer:not(.is-empty) .cart-drawer__collection {
 
 .drawer__middle span,
 .drawer__middle strong {
-  color: gold !important;
+  color: #daa520 !important;
 }
 
 /* Mobile */

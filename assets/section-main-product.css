@@ -1313,6 +1313,10 @@ a.product__text {
   margin-bottom: var(--icon-size);
 }
 
+.icon-with-text--vertical .icon-with-text__item:last-child {
+  margin-bottom: 0;
+}
+
 /* SKU block */
 
 .product__sku.visibility-hidden::after {
