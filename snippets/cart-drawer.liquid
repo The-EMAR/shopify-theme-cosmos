@@ -1,3 +1,7 @@
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
+{{ 'collection-products-list.css' | asset_url | stylesheet_tag }}
+
 {% comment %}
   Renders cart drawer
 
@@ -59,6 +63,7 @@
           {%- endif -%}
         </div>
       {%- endif -%}
+
       <div class="drawer__header">
         <h2 class="drawer__heading">{{ 'sections.cart.title' | t }}</h2>
         <button
@@ -70,6 +75,7 @@
           {% render 'icon-close' %}
         </button>
       </div>
+
       <cart-drawer-items
         {% if cart == empty %}
           class=" is-empty"
@@ -448,6 +454,36 @@
           <div id="CartDrawer-CartErrors" role="alert"></div>
         </form>
       </cart-drawer-items>
+
+      {% if cart != empty %}
+        <div class="drawer__middle collection-products-list {% if cart.item_count >= 2 %}hidden{% endif %}">
+          <p><strong>Само сега!</strong> <br> Добавете <span style="color: rgb(var(--color-link));">втори</span> продукт към вашата кошница и вземете <span style="color: rgb(var(--color-link));">-20% отстъпка</span> на втория артикул. Получавате и <span style="color: rgb(var(--color-link));">безплатна доставка</span> като бонус.</p>
+          
+          {% for collection in collections %}
+            {% assign products_in_collection = collection.products %}
+
+            {% for product_in_collection in products_in_collection %}
+              {% if product_in_collection.id == product.id %}
+                <ul>
+                  {% for _product in collection.products %}
+                    {% if _product.id != product.id %}
+                      <li>
+                        {% render 'card-product',
+                          class: 'drawer'
+                          mobile_truncate: 15, 
+                          card_product: _product,
+                          section_id: section.id
+                        %}
+                      </li>
+                    {% endif %}
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+        </div><!-- /.drawer__middle -->
+      {% endif %}
+
       <div class="drawer__footer">
         {%- if settings.show_cart_note -%}
           <details id="Details-CartDrawer">

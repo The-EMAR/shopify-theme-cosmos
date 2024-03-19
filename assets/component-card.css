@@ -521,3 +521,13 @@
 .card--standard .card__heading > a {
   font-size: 1.6rem;
 }
+
+/* card--drawer */
+
+.card--drawer .card__heading {
+  font-size: calc(var(--font-heading-scale) * 1.5rem);
+}
+
+.card--drawer .price {
+  display: none;
+}

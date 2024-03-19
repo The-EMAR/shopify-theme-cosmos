@@ -5,6 +5,7 @@ slider-component {
   );
   position: relative;
   display: block;
+  background-color: rgb(var(--color-foreground));
 }
 
 slider-component.slider-component-full-width {

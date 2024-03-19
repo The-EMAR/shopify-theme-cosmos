@@ -1079,8 +1079,9 @@ summary::-webkit-details-marker {
   }
 
   .grid--peek.slider .grid__item:first-of-type {
-    margin-left: calc(1 * var(--grid-mobile-horizontal-spacing));
+    /* margin-left: calc(1 * var(--grid-mobile-horizontal-spacing)); */
     margin-right: -2.5rem;
+    margin-left: 0;
   }
 
   /* Fix to show some space at the end of our sliders in all browsers */

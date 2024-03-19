@@ -3,6 +3,12 @@
     "collections_release_qGeAqV": {
       "type": "collections-release",
       "blocks": {
+        "collection_UGfWnK": {
+          "type": "collection",
+          "settings": {
+            "collection": "collective"
+          }
+        },
         "collection_e4GJh3": {
           "type": "collection",
           "settings": {
@@ -11,6 +17,7 @@
         }
       },
       "block_order": [
+        "collection_UGfWnK",
         "collection_e4GJh3"
       ],
       "settings": {

@@ -51,6 +51,7 @@ if (!customElements.get('product-form')) {
                 errors: response.errors || response.description,
                 message: response.message,
               });
+
               this.handleErrorMessage(response.description);
 
               const soldOutMessage = this.submitButton.querySelector('.sold-out-message');
@@ -92,6 +93,14 @@ if (!customElements.get('product-form')) {
             console.error(e);
           })
           .finally(() => {
+            // Custom code here
+            let cartLength = this.cart.querySelectorAll('.cart-item')?.length;
+            let drawerOffer = document.querySelector('.collection-products-list');
+
+            if (drawerOffer && cartLength >= 2) {
+              drawerOffer.classList.add('hidden');
+            }
+
             this.submitButton.classList.remove('loading');
             if (this.cart && this.cart.classList.contains('is-empty')) this.cart.classList.remove('is-empty');
             if (!this.error) this.submitButton.removeAttribute('aria-disabled');
