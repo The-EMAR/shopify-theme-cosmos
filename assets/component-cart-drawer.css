@@ -47,12 +47,12 @@
 /* Custom button here */
 
 .drawer__inner-empty .button {
-  color: gold;
+  /* color: gold; */
 }
 
 .drawer__inner-empty .button:after {
-  box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)),
-  0 0 0 var(--buttons-border-width) goldenrod;
+  /* box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)),
+  0 0 0 var(--buttons-border-width) goldenrod; */
 }
 
 .cart-drawer__warnings {
@@ -398,15 +398,15 @@ cart-drawer-items {
   transform: rotate(180deg);
 }
 
-.cart-drawer .cart__checkout-button {
+/* .cart-drawer .cart__checkout-button {
   max-width: none;
   color: gold;
-}
+} */
 
-.cart-drawer .cart__checkout-button:after {
+/* .cart-drawer .cart__checkout-button:after {
   box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)),
   0 0 0 var(--buttons-border-width) goldenrod;
-}
+} */
 
 .drawer__footer .cart__dynamic-checkout-buttons {
   max-width: 100%;

@@ -49,6 +49,13 @@
   margin: 2.5rem 0;
 }
 
+/* Mobile */
+@media (max-width: 767px) {
+  .collection-hero__title {
+    text-align: center;
+  }
+}
+
 .collection-hero__title + .collection-hero__description {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
