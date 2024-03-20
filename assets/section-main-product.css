@@ -186,6 +186,16 @@
 
 .product-form__submit {
   margin-bottom: 1rem;
+
+}
+
+.product-form__submit {
+  color: gold;
+}
+
+.product-form__submit:after {
+  box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)),
+  0 0 0 var(--buttons-border-width) goldenrod;
 }
 
 .no-js .product-form__submit.button--secondary {

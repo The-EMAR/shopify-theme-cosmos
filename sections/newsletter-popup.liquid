@@ -19,11 +19,6 @@
               {% form 'customer', class: 'newsletter-form newsletter-form--custom' %}
                 <input type="hidden" name="contact[tags]" value="newsletter">
 
-                {% if form.posted_successfully? %}
-                  
-                {% else %}
-                  
-                {% endif %}
                 {%- if section.settings.title != blank -%}
                   <h3 class="newsletter-popup__title {% if form.posted_successfully? %}hidden {% endif %}">
                     {{- section.settings.title -}}
@@ -35,7 +30,6 @@
                     {{- section.settings.entry -}}
                   </div><!-- /.newsletter-popup__entry -->
                 {%- endif -%}
-      
                 
                 <div class="newsletter-form__field-wrapper">
                   <div class="field {% if form.posted_successfully? %}hidden {% endif %}">
@@ -81,6 +75,7 @@
                     </small>
                   {%- endif -%}
                 </div>
+
                 {%- if form.posted_successfully? -%}
                   <h3
                     class="newsletter-form__message newsletter-form__message--success form__message"

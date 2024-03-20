@@ -44,6 +44,17 @@
   right: -1rem !important;
 }
 
+/* Custom button here */
+
+.drawer__inner-empty .button {
+  color: gold;
+}
+
+.drawer__inner-empty .button:after {
+  box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)),
+  0 0 0 var(--buttons-border-width) goldenrod;
+}
+
 .cart-drawer__warnings {
   display: flex;
   flex-direction: column;
@@ -389,6 +400,12 @@ cart-drawer-items {
 
 .cart-drawer .cart__checkout-button {
   max-width: none;
+  color: gold;
+}
+
+.cart-drawer .cart__checkout-button:after {
+  box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)),
+  0 0 0 var(--buttons-border-width) goldenrod;
 }
 
 .drawer__footer .cart__dynamic-checkout-buttons {
