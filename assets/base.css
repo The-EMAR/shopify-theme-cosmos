@@ -3716,6 +3716,7 @@ details-disclosure>details {
 /* Mobile */
 @media (max-width: 767px) {
   .new-product-slider.is-initialized, .splide.is-rendered {
+    background: white !important;
     margin: 0 -1.5rem 2rem;
     display: block !important;
   }

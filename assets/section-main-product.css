@@ -666,6 +666,10 @@ a.product__text {
   overflow: auto;
 }
 
+.product-media-modal__content > img {
+  background-color: white !important;
+}
+
 .product-media-modal__content>*:not(.active),
 .product__media-list .deferred-media {
   display: none;
