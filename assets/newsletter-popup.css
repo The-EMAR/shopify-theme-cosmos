@@ -94,6 +94,7 @@
 .newsletter-popup .newsletter-popup__content h3 {
   margin: .5rem 0;
   width: 100%;
+  line-height: normal;
 }
 
 .newsletter-popup .newsletter-popup__content .newsletter-popup__title {

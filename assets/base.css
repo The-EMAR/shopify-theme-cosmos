@@ -3715,7 +3715,9 @@ details-disclosure>details {
 
 /* Mobile */
 @media (max-width: 767px) {
-  .new-product-slider.is-initialized, .splide.is-rendered {
+
+  .new-product-slider.is-initialized,
+  .splide.is-rendered {
     background: white !important;
     margin: 0 -1.5rem 2rem;
     display: block !important;
@@ -3750,7 +3752,7 @@ details-disclosure>details {
   gap: 2rem;
 }
 
-.variant-sizes > fieldset {
+.variant-sizes>fieldset {
   flex: 1;
   margin-bottom: 0;
 }
@@ -3790,7 +3792,7 @@ td {
   padding: 0;
 }
 
-.shopify-policy__container .shopify-policy__title > h1 {
+.shopify-policy__container .shopify-policy__title>h1 {
   margin-top: 0;
 }
 
@@ -3799,4 +3801,42 @@ td {
 .shopify-challenge__container .shopify-challenge__button {
   background: #292929 !important;
   margin: 1rem auto 0 !important;
+}
+
+/* list-collection-variants in main-product */
+
+.list-collection-variants {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  /* gap: 1rem; */
+}
+
+.list-collection-variants a {
+  text-decoration: none;
+  display: inline-block;
+  border-radius: var(--variant-pills-radius);
+  border: var(--variant-pills-border-width) solid rgba(var(--color-foreground), var(--variant-pills-border-opacity));
+  background-color: rgb(var(--color-background));
+  color: rgb(var(--color-foreground));
+  margin: 0.7rem 0.5rem 0.2rem 0;
+  padding: 1rem 1.3rem;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  line-height: 1;
+  text-align: center;
+  transition: border var(--duration-short) ease;
+  cursor: pointer;
+  position: relative;
+}
+
+.list-collection-variants a.active {
+  background-color: rgb(var(--color-foreground));
+  color: rgb(var(--color-background));
+}
+
+.list-collection-variants a:hover {
+  border-color: rgb(var(--color-foreground));
 }

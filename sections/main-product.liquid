@@ -470,7 +470,51 @@
                   block: block,
                   share_link: share_url
                 %}
+              {%- when 'show_variants' -%}
+                {% assign product_collection = product.metafields.custom.part_of_collection %}
+                {% assign collection_id = product_collection | split: "/" | last %}
 
+                {% if product_collection != blank %}
+                  <div>
+                    <legend class="form__label" style="margin: 0 0 0.2rem 0">Colors</legend>
+  
+                    <ul class="list-collection-variants">
+                      <li>
+                        <a href="{{ product.url }}" class="active">
+                          {% if product.url contains 'black' %}
+                            BLACK
+                          {% endif %}
+  
+                          {% if product.url contains 'white' %}
+                            WHITE
+                          {% endif %}
+                        </a>
+                      </li>
+  
+                      {% for collection in collections %}
+                        {% assign handle_collection_id = collection.id | handleize  %}
+      
+                        {% if collection_id == handle_collection_id %}
+                          {% for _product in collection.products %}
+                            {% if product.id != _product.id %}
+                              <li>
+                                <a href="{{ _product.url }}">
+                                  {% if _product.url contains 'black' %}
+                                    BLACK
+                                  {% endif %}
+      
+                                  {% if _product.url contains 'white' %}
+                                    WHITE
+                                  {% endif %}
+                                </a>
+                              </li>
+                            {% endif %}
+                          {% endfor %}
+                        {% endif %}
+                      {% endfor %}
+                    </ul>
+                  </div>
+                {% endif %}
               {%- when 'variant_picker' -%}
                 {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id, class: 'variant-sizes' %}
               {%- when 'buy_buttons' -%}
@@ -763,6 +807,8 @@
   </div>
 </section>
 
+{% render 'gifts-game' %}
+
 {% schema %}
 {
   "name": "t:sections.main-product.name",
@@ -955,6 +1001,10 @@
           "label": "t:sections.main-product.blocks.popup.settings.page.label"
         }
       ]
+    },
+    {
+      "type": "show_variants",
+      "name": "Show Color Variants"
     },
     {
       "type": "buy_buttons",

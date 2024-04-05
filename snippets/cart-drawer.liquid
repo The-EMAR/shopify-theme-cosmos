@@ -462,22 +462,30 @@
           {% for collection in collections %}
             {% assign products_in_collection = collection.products %}
 
+            {% comment %} Metafield {% endcomment %}
+            {% assign product_collection = product.metafields.custom.part_of_collection %}
+            {% assign collection_id = product_collection | split: "/" | last %}
+
             {% for product_in_collection in products_in_collection %}
               {% if product_in_collection.id == product.id %}
-                <ul>
-                  {% for _product in collection.products %}
-                    {% if _product.id != product.id %}
-                      <li>
-                        {% render 'card-product',
-                          class: 'drawer'
-                          mobile_truncate: 15, 
-                          card_product: _product,
-                          section_id: section.id
-                        %}
-                      </li>
-                    {% endif %}
-                  {% endfor %}
-                </ul>
+                {% assign handle_collection_id = collection.id | handleize  %}
+
+                {% if handle_collection_id != collection_id %}
+                  <ul>
+                    {% for _product in collection.products %}
+                      {% if _product.id != product.id %}
+                        <li>
+                          {% render 'card-product',
+                            class: 'drawer'
+                            mobile_truncate: 15, 
+                            card_product: _product,
+                            section_id: section.id
+                          %}
+                        </li>
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
+                {% endif %}
               {% endif %}
             {% endfor %}
           {% endfor %}

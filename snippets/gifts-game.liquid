@@ -1,0 +1,57 @@
+{{- 'gifts-game.css' | asset_url | stylesheet_tag -}}
+
+<script src="{{- 'gifts-game.js' | asset_url -}}" defer="defer"></script>
+
+<div class="gifts-game">
+  <div class="page-width">
+    <h3>Играй и спечели награди</h3>
+
+    <h4>Таблица</h4>
+    <ul>
+      <li>0 - Безплатна доставка</li>
+      <li>1 - 5% отстъпка</li>
+      <li>2 - 10% отстъпка</li>
+      <li>3 - 20% отстъпка</li>
+      <li>4 - 30% отстъпка</li>
+      <li>5 - 50% отстъпка</li>
+      <li>6 - Безплатен артикул</li>
+    </ul>
+
+    <p>Въведи числa между 1 - 16 <br>
+      <i>Пример: 4, 8, 10, 11, 3, 1</i>
+    </p>
+    <ul class="gifts-game__inputs">
+      <li>
+        <input type="number" min="1" max="16"  max class="number--1">
+      </li>
+
+      <li>
+        <input type="number" min="1" max="16" class="number--2">
+      </li>
+
+      <li>
+        <input type="number" min="1" max="16" class="number--3">
+      </li>
+
+      <li>
+        <input type="number" min="1" max="16" class="number--4">
+      </li>
+
+      <li>
+        <input type="number" min="1" max="16" class="number--5">
+      </li>
+
+      <li>
+        <input type="number" min="1" max="16" class="number--6">
+      </li>
+    </ul>
+    
+    <button id="play-game">Играй</button>
+
+    <ul class="random-generate" >
+      <li></li>
+    </ul>
+
+    <p>Познати числа: 2 - 67, 3</p>
+  </div><!-- /.page-width -->
+</div><!-- /.gifts-game -->

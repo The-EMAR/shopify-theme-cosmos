@@ -60,19 +60,21 @@
           %}
         </fieldset>
         
-        <modal-opener
-          class="product-popup-modal__opener no-js-hidden quick-add-hidden"
-          data-modal="#PopupModal-{{ block.id }}"
-        >
-          <button
-            id="ProductPopup-{{ block.id }}"
-            class="product-popup-modal__button link"
-            type="button"
-            aria-haspopup="dialog"
+        {% if option.name == 'Size' %}
+          <modal-opener
+            class="product-popup-modal__opener no-js-hidden quick-add-hidden"
+            data-modal="#PopupModal-{{ block.id }}"
           >
-            {{ block.settings.variant_text | default: block.settings.variant_page.title }}
-          </button>
-        </modal-opener>
+            <button
+              id="ProductPopup-{{ block.id }}"
+              class="product-popup-modal__button link"
+              type="button"
+              aria-haspopup="dialog"
+            >
+              {{ block.settings.variant_text | default: block.settings.variant_page.title }}
+            </button>
+          </modal-opener>
+        {% endif %}
       {%- else -%}
         <div class="product-form__input product-form__input--dropdown">
           <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">

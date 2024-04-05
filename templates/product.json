@@ -19,6 +19,11 @@
             "scroll_to_bottom_text": "Вземи 20% отстъпка за първа поръчка"
           }
         },
+        "show_variants_y7cBjc": {
+          "type": "show_variants",
+          "settings": {
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -83,6 +88,7 @@
         "title",
         "price",
         "scroll_to_bottom_HyDLgp",
+        "show_variants_y7cBjc",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",

@@ -5,13 +5,21 @@
       "blocks": {
         "collection_UGfWnK": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "collective"
+          }
+        },
+        "collection_pnBjGh": {
+          "type": "collection",
+          "settings": {
+            "collection": "ability"
           }
         }
       },
       "block_order": [
-        "collection_UGfWnK"
+        "collection_UGfWnK",
+        "collection_pnBjGh"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/EMAR_CARDS_3.png",
