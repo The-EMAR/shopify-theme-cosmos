@@ -164,6 +164,10 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
   z-index: 0;
 }
 
+.section .scroll-trigger {
+  background-color: #292929 !important;
+}
+
 .section+.section {
   margin-top: var(--spacing-sections-mobile);
 }
@@ -3839,4 +3843,20 @@ td {
 
 .list-collection-variants a:hover {
   border-color: rgb(var(--color-foreground));
+}
+
+/* TrustReview */
+
+.tr-gallery {
+  display: none !important;
+}
+
+#add-review-modal {
+  padding: 2rem !important;
+}
+
+/* Instafeed */
+
+#insta-feed, .instafeed-shopify {
+  margin-top: 80px !important;
 }

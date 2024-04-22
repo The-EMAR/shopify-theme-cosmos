@@ -22,14 +22,37 @@
         "collection_pnBjGh"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/EMAR_CARDS_3.png",
+        "image": "shopify://shop_images/EMAR_CARDS_3.png",
         "color_scheme": "scheme-4e647fb5-3863-4263-90c3-a8fe98f7ecba",
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1713696584e775462a": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_bw6B7R": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "Instafeed",
+            "title_color": "#000000",
+            "alignment": "center",
+            "margin_top": 40,
+            "margin_bottom": 40,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_bw6B7R"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
-    "collections_release_qGeAqV"
+    "collections_release_qGeAqV",
+    "1713696584e775462a"
   ]
 }

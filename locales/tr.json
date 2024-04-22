@@ -7,7 +7,7 @@
       "login_form_password_placeholder": "Parolanız",
       "login_form_error": "Yanlış parola!",
       "login_form_submit": "Gir",
-      "admin_link_html": "Mağaza sahibi misiniz? <a href=\"\/admin\" class=\"link underlined-link\">Buradan oturum açın<\/a>",
+      "admin_link_html": "Mağaza sahibi misiniz? <a href=\"/admin\" class=\"link underlined-link\">Buradan oturum açın</a>",
       "powered_by_shopify_html": "Bu mağaza {{ shopify }} tarafından desteklenir"
     },
     "social": {
@@ -51,7 +51,7 @@
       "close": "Paylaşımı kapat"
     },
     "slider": {
-      "of": "\/",
+      "of": "/",
       "next_slide": "Sağa kaydır",
       "previous_slide": "Sola kaydır",
       "name": "Kaydırıcı"
@@ -65,7 +65,7 @@
   "accessibility": {
     "skip_to_text": "İçeriğe atla",
     "close": "Kapat",
-    "unit_price_separator": "\/",
+    "unit_price_separator": "/",
     "vendor": "Satıcı:",
     "error": "Hata",
     "refresh_page": "Bir seçim yapmanız sayfanın tamamının yenilenmesine neden olur.",
@@ -76,7 +76,7 @@
     "loading": "Yükleniyor...",
     "skip_to_product_info": "Ürün bilgisine atla",
     "total_reviews": "toplam değerlendirme",
-    "star_reviews_info": "{{ rating_value }}\/{{ rating_max }} yıldız",
+    "star_reviews_info": "{{ rating_value }}/{{ rating_max }} yıldız",
     "collapsible_content_title": "Daraltılabilir içerik",
     "complementary_products": "Tamamlayıcı ürünler"
   },
@@ -117,7 +117,7 @@
         "minimum_of": "Minimum: {{ quantity }}",
         "maximum_of": "Maksimum: {{ quantity }}",
         "multiples_of": "Artış değeri: {{ quantity }}",
-        "in_cart_html": "Sepette: <span class=\"quantity-cart\">{{ quantity }}<\/span>",
+        "in_cart_html": "Sepette: <span class=\"quantity-cart\">{{ quantity }}</span>",
         "note": "Adet kurallarını görüntüle"
       },
       "price": {
@@ -137,8 +137,8 @@
         "view_store_info": "Mağaza bilgilerini görüntüleyin",
         "check_other_stores": "Diğer mağazalardaki stok durumunu kontrol edin",
         "pick_up_available": "Teslim alım kullanılabilir",
-        "pick_up_available_at_html": "Teslim alım <span class=\"color-foreground\">{{ location_name }}<\/span> konumunda kullanılabilir",
-        "pick_up_unavailable_at_html": "Teslim alım <span class=\"color-foreground\">{{ location_name }}<\/span> konumunda şu anda kullanılamıyor",
+        "pick_up_available_at_html": "Teslim alım <span class=\"color-foreground\">{{ location_name }}</span> konumunda kullanılabilir",
+        "pick_up_unavailable_at_html": "Teslim alım <span class=\"color-foreground\">{{ location_name }}</span> konumunda şu anda kullanılamıyor",
         "unavailable": "Teslim alım stok durumu yüklenemedi",
         "refresh": "Yenile"
       },
@@ -154,7 +154,7 @@
       },
       "view_full_details": "Tüm ayrıntıları görüntüle",
       "include_taxes": "Vergi dahildir.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Kargo<\/a>, ödeme sayfasında hesaplanır.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Kargo</a>, ödeme sayfasında hesaplanır.",
       "choose_options": "Seçenekleri belirle",
       "choose_product_options": "{{ product_name }} için seçenekleri belirle",
       "value_unavailable": "{{ option_value }} - Kullanılamıyor",
@@ -170,7 +170,7 @@
         "title": "Toplu Alım Bazlı Fiyatlandırma",
         "note": "Toplu alım bazlı fiyatlandırma kullanılabilir",
         "minimum": "{{ quantity }}+",
-        "price_at_each": "{{ price }}\/adet",
+        "price_at_each": "{{ price }}/adet",
         "price_range": "{{ minimum }} - {{ maximum }}"
       },
       "product_variants": "Ürün varyasyonları"
@@ -192,8 +192,8 @@
       },
       "max_price": "En yüksek fiyat: {{ price }}",
       "product_count": {
-        "one": "{{ count }}\/{{ product_count }} ürün",
-        "other": "{{ count }}\/{{ product_count }} ürün"
+        "one": "{{ count }}/{{ product_count }} ürün",
+        "other": "{{ count }}/{{ product_count }} ürün"
       },
       "product_count_simple": {
         "one": "{{ count }} ürün",
@@ -278,9 +278,9 @@
       "empty": "Sepetiniz boş",
       "cart_error": "Sepetiniz güncellenirken bir hata oluştu. Lütfen tekrar deneyin.",
       "cart_quantity_error_html": "Sepetinize bu üründen yalnızca {{ quantity }} adet ekleyebilirsiniz.",
-      "taxes_and_shipping_policy_at_checkout_html": "Vergiler, indirimler ve <a href=\"{{ link }}\">kargo<\/a>, ödeme sayfasında hesaplanır",
+      "taxes_and_shipping_policy_at_checkout_html": "Vergiler, indirimler ve <a href=\"{{ link }}\">kargo</a>, ödeme sayfasında hesaplanır",
       "taxes_included_but_shipping_at_checkout": "Vergi dahildir ve kargo ile indirimler, ödeme sayfasında hesaplanır",
-      "taxes_included_and_shipping_policy_html": "Vergi dahildir. <a href=\"{{ link }}\">Kargo<\/a> ve indirimler, ödeme sayfasında hesaplanır.",
+      "taxes_included_and_shipping_policy_html": "Vergi dahildir. <a href=\"{{ link }}\">Kargo</a> ve indirimler, ödeme sayfasında hesaplanır.",
       "taxes_and_shipping_at_checkout": "Vergiler, indirimler ve kargo, ödeme sayfasında hesaplanır",
       "headings": {
         "product": "Ürün",
@@ -292,7 +292,7 @@
       "update": "Güncelle",
       "login": {
         "title": "Hesabınız var mı?",
-        "paragraph_html": "Daha hızlı ödeme yapmak için <a href=\"{{ link }}\" class=\"link underlined-link\">oturum açın<\/a>."
+        "paragraph_html": "Daha hızlı ödeme yapmak için <a href=\"{{ link }}\" class=\"link underlined-link\">oturum açın</a>."
       },
       "estimated_total": "Tahmini toplam",
       "new_estimated_total": "Yeni tahmini toplam"
@@ -315,7 +315,7 @@
     "collection_template": {
       "title": "Koleksiyon",
       "empty": "Ürün bulunamadı",
-      "use_fewer_filters_html": "Daha az filtre kullan veya <a class=\"{{ class }}\" href=\"{{ link }}\">tümünü kaldır<\/a>"
+      "use_fewer_filters_html": "Daha az filtre kullan veya <a class=\"{{ class }}\" href=\"{{ link }}\">tümünü kaldır</a>"
     },
     "video": {
       "load_video": "Videoyu yükle: {{ description }}"
@@ -342,7 +342,7 @@
     "quick_order_list": {
       "product_total": "Ürün alt toplamı",
       "view_cart": "Sepeti görüntüle",
-      "each": "{{ money }}\/adet",
+      "each": "{{ money }}/adet",
       "product": "Ürün",
       "variant": "Varyasyon",
       "variant_total": "Varyasyon toplamı",
@@ -363,13 +363,13 @@
     }
   },
   "localization": {
-    "country_label": "Ülke\/bölge",
+    "country_label": "Ülke/bölge",
     "language_label": "Dil",
     "update_language": "Dili güncelle",
-    "update_country": "Ülke\/bölge bilgisini güncelle",
+    "update_country": "Ülke/bölge bilgisini güncelle",
     "search": "Ara",
-    "popular_countries_regions": "Popüler ülkeler\/bölgeler",
-    "country_results_count": "{{ count }} ülke\/bölge bulundu"
+    "popular_countries_regions": "Popüler ülkeler/bölgeler",
+    "country_results_count": "{{ count }} ülke/bölge bulundu"
   },
   "customer": {
     "account": {
@@ -398,7 +398,7 @@
       "address1": "Adres 1",
       "address2": "Adres 2",
       "city": "Şehir",
-      "country": "Ülke\/bölge",
+      "country": "Ülke/bölge",
       "province": "İl",
       "zip": "Posta kodu",
       "phone": "Telefon",
@@ -511,6 +511,631 @@
       "send_on_label": "Şu tarihte gönder (isteğe bağlı)",
       "expanded": "Hediye kartı alıcısı formu genişletildi",
       "collapsed": "Hediye kartı alıcısı formu daraltıldı"
+    }
+  },
+  "shopify": {
+    "sentence": {
+      "two_words_connector": " Ve ",
+      "last_word_connector": "Ve "
+    },
+    "checkout": {
+      "shipping": {
+        "title": "Teslimat",
+        "shipping_method_title": "Teslimat yolu",
+        "waiting_on_rate_notice": "Mevcut gönderim ücretlerini alın…",
+        "waiting_on_pickup_location_notice": "Mevcut teslim alma konumları getiriliyor…",
+        "no_rates_for_cart_or_destination_notice": "Sepetiniz veya adresiniz için gönderim yöntemi mevcut değil",
+        "no_pickup_location_notice": "Ürünlerden en az biri teslim alınamıyor",
+        "no_rates_for_country_notice": "Bu adres için nakliye ücreti bulunamadı.",
+        "please_enter_your_shipping_information_notice": "Gönderim bilgilerinizi girin.",
+        "shipping_line_phone": "Kuryenin sizinle bu telefondan iletişime geçmesi mümkündür.",
+        "other_method": {
+          "zero": "Başka yol yok",
+          "one": "%{count} başka bir kullanılabilir yol",
+          "other": "%{count} başka bir kullanılabilir yol"
+        },
+        "shipping_rate_discounted_amount": "Önce: %{original_amount}. Şimdi: %{amount}",
+        "shipping_line_delivery_phone": "Ayrıca nakliye haberlerini de alabilirsiniz.",
+        "optional_shipping_line_delivery_instructions_label": "Gönderim talimatları (isteğe bağlı)",
+        "shipping_line_delivery_phone_label": "cep telefonu numarası",
+        "shipping_line_delivery_instructions": "Kapı kodu veya bırakma talimatları gibi gerekli bilgileri girin.",
+        "subscription_shipping": "Abonelikle gönderim",
+        "shipping_method_one_time_purchase_group_title": "Tek seferlik SATIN ALMA",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "%{count} teslimatı için",
+            "other": "%{count} teslimatlar için"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "Her gün"
+            },
+            "month": {
+              "one": "aylık"
+            }
+          },
+          "multiple_subscriptions_shipping_price_label": "%{shipping_price} teslimatta",
+          "prepaid_shipping_price_label": "%{shipping_price} teslimatta x %{delivery_interval_count}",
+          "initial_order_discounted": "İlk teslimat %{discounted_shipping_cost} ve ardından %{frequency_description} tarihine kadardır",
+          "prepaid_initial_order_discounted": "İlk teslimat %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "İlk teslimat %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "İlk teslimat %{discounted_shipping_price} %{prepaid_delivery_frequency} ve ardından %{shipping_price} %{billing_cycle} tarihindedir.",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "İlk teslimat %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}) ve ardından %{shipping_price} %{billing_cycle}'dir",
+          "first_order_shipping_price_included": "İlk sipariş dahil edilir ve onu %{recurring_order_shipping_price} takip eder",
+          "recurring_order_shipping_price": "ve sonra – %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} teslimatta) ve ardından %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "İlk sipariş ücretsizdir",
+            "other": "İlk %{count} siparişler ücretsizdir"
+          }
+        },
+        "one_time_purchase_shipping": "Bir kere gönder",
+        "estimated_delivery_time": "Tahmini teslimat: %{time}",
+        "estimated_delivery_time_range": "Tahmini Teslimat: %{min_time}–%{max_time}",
+        "estimated_time": "Beklenen: %{time}",
+        "estimated_time_range": "Beklenen: %{min_time} – %{max_time}",
+        "delivery_date_range": "%{min_time} – %{max_time}",
+        "subscription_local_delivery": "Yerinde abonelik teslimi",
+        "subscription_pickup": "Abonelik alma",
+        "delivery_today": "Aynı gün teslimat: %{time}",
+        "delivery_tomorrow": "Ertesi Gün Teslimat: %{time}",
+        "two_day_delivery": "İki gün içinde teslimat: %{time}",
+        "delivery": "Teslimat: %{time}",
+        "address2_add_label": "Kat, daire vb. ekleyin.",
+        "duties_and_taxes_title": "Görevler ve vergiler",
+        "shipping_information_required_notice": "Nakliye bilgileri gerekli. {{link}}.",
+        "loading_progressive_rates": "Daha fazla fiyat arayın...",
+        "no_other_methods_available": "Başka yol yok",
+        "duties_and_taxes_options": {
+          "ddu_title": "Teslimatta ödeme",
+          "ddu_caption": "Ek ücretler geçerli olabilir",
+          "ddp_title": "Şimdi ödeme",
+          "ddp_caption": "Ekstra kargo ücreti yok"
+        },
+        "shipping_used_as_billing_notice": "Bu aynı zamanda bu siparişin fatura adresi olacaktır.",
+        "shipping_address_title": "Teslimat",
+        "add_address": "Başka bir adres kullanma",
+        "add_delivery_instructions": "Gönderim talimatlarını ekleyin",
+        "edit": "Düzenleme",
+        "delete": "Silmek",
+        "address_edit": "Adresi düzelt",
+        "address_form": {
+          "add_address": "Adres Ekle",
+          "save": "bir yere yaz",
+          "cancel": "Reddetme",
+          "generic_error": "Adresiniz kaydedilirken bir sorun oluştu. Tekrar deneyin."
+        },
+        "different_shipping_method_summary": "Mevcut gönderim seçeneklerini görmek için farklı bir gönderim adresi girin",
+        "invalid_shipping_method_summary": "Mevcut gönderim seçeneklerini görüntülemek için lütfen geçerli bir gönderim adresi girin",
+        "method_summary": {
+          "incomplete_address_entered": "Mevcut gönderim seçeneklerini görüntülemek için tam gönderim adresini girin",
+          "incomplete_address_selected": "Mevcut gönderim seçeneklerini görüntülemek için tam gönderim adresini seçin"
+        },
+        "local_pickup": {
+          "search_address": "Adres arama",
+          "rollup_title": "Teslim alma konumu"
+        },
+        "missing_shipping_address": "Eksik teslimat adresi",
+        "shipping_method_first_shipment_group_title": {
+          "one": "İlk teslimat",
+          "other": "İlk teslimatlar"
+        },
+        "shipping_method_recurring_shipments_group_title": {
+          "one": "Periyodik teslimat",
+          "other": "Periyodik teslimatlar"
+        },
+        "address_default": "Varsayılan seçim olarak ayarla"
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "Kredi kartınızdan %{amount} tutarında çekim yapılacak",
+        "payment_total_label": "Ödenecek toplam tutar",
+        "change_currency_link": "%{currency_name} değişikliği",
+        "card_provider_fx_charges_warning": "Kartınızı veren kuruluş %{currency_code}'de işlem ücreti alabilir.",
+        "currency_not_supported_by_shop": "Seçilen para birimi artık mevcut değil. Artık tüm fiyatlar %{currency_code} cinsindendir."
+      },
+      "general": {
+        "page_title": "Çıkışa doğru devam et",
+        "breadcrumb": "İzleme",
+        "continue_button_label": "Devam etmek",
+        "complete_purchase_button_label": "Sipariş tamamlama",
+        "authenticate_purchase_button_label": "Ödeme Doğrulaması",
+        "edit_link_label": "Düzenleme",
+        "all_rights_reserved": "Tüm hakları saklıdır - %{shop_name}",
+        "print_policies_link_label": "Damga vurmak",
+        "cart": "Araba",
+        "close_modal_label": "Kapanış",
+        "close_notice_label": "Kapanış",
+        "expand_notice_label": "Daha fazla göster",
+        "continue_to_shipping_method": "Göndermeye devam et",
+        "continue_to_payment_method": "Çıkışa doğru devam et",
+        "continue_to_review": "Siparişi görüntüle",
+        "back_to_contact_information": "Bilgiye geri dön",
+        "back_to_shipping_method": "Gönderime geri dön",
+        "back_to_payment_method": "Ödeme sayfasına geri dön",
+        "choose_shipping_method": "Bir teslimat yöntemi seçin",
+        "choose_payment_method": "Bir ödeme yöntemi seçin",
+        "autocomplete_single_item": "1 ürün mevcut",
+        "autocomplete_multi_item": "{{number}} öğe mevcut",
+        "autocomplete_selection": "{{number}} / {{total}}",
+        "autocomplete_close": "Tekliflerin kapatılması",
+        "forwarding_indicator": {
+          "external": "Harici bir web sitesi açar.",
+          "external_and_new_window": "Yeni bir pencerede harici bir web sitesi açar."
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} – ödemeye devam edin"
+        },
+        "errors": {
+          "line_item_limit_reached": "Maksimum öğe sayısına ulaşıldı.",
+          "only_empty_terms_accepted": "Bu kurallar yalnızca boş koşulları kabul eder.",
+          "session_is_already_finished": "Bu ödeme oturumu zaten tamamlandı.",
+          "merchandise": {
+            "only_value_constraint": "Ürün giriş alanında yalnızca kesin değerlere izin verilir.",
+            "merchandise_variant_not_found": "Bu ürün çeşidi bulunamadı.",
+            "merchandise_not_applicable": "Bu ürün çeşidi satın alınamaz.",
+            "bundle_products_not_supported_for_b2b": "Bu konum için paketli ürünler B2B siparişlerine eklenemiyor.",
+            "gift_card_quantity_mismatch": "Hediye çeki kodları belirlenirken ürün adetleri ile hediye çeki kodlarının sayısının aynı olması gerekmektedir.",
+            "gift_card_not_supported": "Bu ödemede hediye çekleri desteklenmemektedir.",
+            "gift_card_not_unique": "{{code}} hediye çeki kodu bu ödemede birden fazla kez mevcut. Kodlar karşılaştırılmadan önce biçimlendirilir.",
+            "gift_card_used": "Hediye çeki kodu {{code}} zaten bir kupon olarak ayarlanmış. Kodlar karşılaştırılmadan önce biçimlendirilir.",
+            "gift_card_invalid": "Hediye çeki kodu {{code}} geçersiz.",
+            "gift_card_code_changed": "Hediye çeki kodu {{proposed_code}}, biçimlendirme kurallarına uyacak şekilde {{formatted_code}} olarak değiştirildi.",
+            "gift_card_with_attributes_not_supported": "Bu ödeme için özel özelliklere sahip hediye çekleri desteklenmemektedir.",
+            "gift_card_with_components_not_supported": "Bu ödeme için bileşen içeren hediye çekleri desteklenmemektedir.",
+            "selling_plan_mismatch": "Aboneliğiniz güncellendi.",
+            "selling_plan_not_supported_b2b": "B2B ödeme abonelikleri desteklenmez.",
+            "price_mismatch": "Bu ürün için daha önce önerilen fiyat geçersiz ve güncellendi.",
+            "inventory_not_found": "Bu ürüne ait stok bulunamadı.",
+            "duplicated_stable_id": "Bu ürün serisi başka bir seriyle aynı kararlı kimliğe sahiptir.",
+            "minimum_quantity_not_met": "Bazı ürünlerin miktarı minimum miktar gerekliliklerini karşılamıyor.",
+            "maximum_quantity_exceeded": "Bazı ürün miktarları maksimum miktar gereksinimlerini karşılamıyor.",
+            "quantity_increment_not_met": "Bazı ürünlerin miktarı sipariş limiti gerekliliklerini karşılamıyor.",
+            "quantity_rules_not_met": "Bazı ürünlerin miktarı sipariş limiti gerekliliklerini karşılamıyor.",
+            "bundle_requires_components": "Bu ürün paketi hiçbir bileşen içermez.",
+            "title_too_long": "Ürün başlığı çok uzun.",
+            "title_empty": "Ürün başlığı boş."
+          },
+          "buyer_identity": {
+            "business_customer_does_not_match_company": "Şirket iletişim kişisinin şirkete erişimi yok.",
+            "contact_info_does_not_match_customer_account": "Sağlanan müşteri bilgileri, oturum açmak için kullanılan müşteri profiliyle eşleşmelidir.",
+            "phone_number_does_not_match_expected_pattern": "Sağlanan telefon numarası beklenen formatla eşleşmiyor.",
+            "email_required": "Abonelik ürünlerini satın alırken bir e-posta adresi gereklidir.",
+            "email_domain_is_invalid": "Belirtilen etki alanı çözümlenemedi.",
+            "missing_contact_method": "Geçerli bir iletişim yöntemi eksik.",
+            "checkout_completion_target_is_missing": "Ödeme başarı hedefi eksik.",
+            "customer_profile_access_restricted": "Ödeme işleminin bu müşteri profiline erişim izni yok.",
+            "checkout_completion_target_is_invalid_proc": "Geçersiz ödeme hedefi."
+          },
+          "delivery": {
+            "only_one_delivery_line_allowed": "Sepette yalnızca bir teslimat hattı bulunmalıdır",
+            "wrong_number_of_delivery_lines": "Teslimat hattı her ürün grubu için belirtilmelidir.",
+            "external_delivery_promise_error": "Harici teslimat tahmini alınırken hata oluştu. ",
+            "options_instructions_invalid": "Belirtilen talimatlar beklenen formatla eşleşmiyor.",
+            "destination_address_required": "Devam etmek için bir hedef adres gerekli ",
+            "pickup_points_unavailable": "Şu anda teslim alma konumu mevcut değil.",
+            "local_pickup_delivery_line_detail_changed": "Devam etmek için mevcut yerel teslim alma teslimat stratejisinin değiştirilmesi gerekiyor.",
+            "local_pickup_no_delivery_strategy_available": "Yerel teslim alma teslimat stratejisi bulunamadı.",
+            "origin_location_id_required": "PERAKENDE gönderim yöntemi gerektiğinde Menşe Konum Kimliği gereklidir.",
+            "invalid_origin_location_id": "Kaynak konum kimliğiyle eşleşen konum bulunamadı.",
+            "origin_location_id_not_allowed": "İstenen gönderim yöntemleri kaynak konum kimliklerini desteklemiyor.",
+            "auto_fulfill_not_allowed": "Oturumun, sipariş yürütme davranışını geçersiz kılma izinleri yok.",
+            "auto_fulfill_required": "PERAKENDE teslimat yöntemi gerektiğinde siparişin otomatik olarak yerine getirilmesi gerekir.",
+            "prefetch_shipping_rates_used": "Önceden belirlenmiş kargo ücretleri hiçbir zaman oranları döndürmemelidir.",
+            "fulfillment_constraints_not_satisfied": "Bir veya daha fazla emir yürütme kısıtlaması karşılanmadı.",
+            "must_fulfill_from_constraint_not_satisfied": "Bazı ürünler gerekli konumlardan teslim edilemediğinden sipariş karşılama limitleri karşılanmıyor.",
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Bazı ürünler aynı yerden gönderilemediği için sipariş karşılama limitleri karşılanmıyor.",
+            "delivery_strategy_conditions_not_satisfied": "Bu konumdan teslimat stratejileri mevcut ancak koşulları karşılanmıyor.",
+            "out_of_stock_at_origin_location": "Kaynak lokasyonda envanter yok."
+          },
+          "discount": {
+            "discounts_not_allowed_for_b2b": "B2B mağazalarda indirime izin verilmez.",
+            "custom_discount_not_honoured": "Sağlanan kullanıcı indirimi dikkate alınmaz.",
+            "unsupported_expectation": "Sağlanan indirim satırı kurallarla yorumlanamayacak bir beklenti içermektedir.",
+            "additional_requested_discount_code_discarded": "Ek indirim kodu reddedildi.",
+            "allocations_mismatch": "Beklenen indirim dağılımı gerçek indirim dağılımıyla eşleşmiyor."
+          },
+          "tax": {
+            "new_tax_must_be_accepted": "Devam etmek için satıcının teklifinde yeni bir vergi satırının kabul edilmesi gerekir.",
+            "unresolvable_tax_terms": "Önerilen şartlar, müzakerelerin mevcut bağlamı göz önüne alındığında zorludur.",
+            "delivery_price_is_abstract": "İlgili nakliye maliyeti soyuttur.",
+            "tax_inclusivity_mismatch": "Belirli bir totalTaxAndDutyAmount veya totalAmountIncludedInTarget değeriyle tekrar deneyin.",
+            "delivery_tax_exemption_not_supported": "Tedarik hatları için vergi muafiyetleri şu anda desteklenmemektedir.",
+            "proposed_allocations_required": "\"Önerilen tahsisler\" alanı eksik.",
+            "merchandise_terms_must_be_defined": "Ürünlere ilişkin şartlar tanımlanmalıdır.",
+            "delivery_terms_must_be_defined": "Teslimat koşulları tanımlanmalıdır.",
+            "merchandise_discount_terms_must_be_defined": "Ürünlere ilişkin indirim koşullarının tanımlanması gerekmektedir.",
+            "delivery_discount_terms_must_be_defined": "Teslimat indirimi koşulları tanımlanmalıdır.",
+            "allocated_required": "\"Ayrılan\" alan eksik.",
+            "line_splits_not_supported": "\"Ürün grupları\" alanı, satıcının teklifinde her biri ayrı bir satıra sahip olacak şekilde bölünmelidir."
+          },
+          "payment": {
+            "manual_payments_not_allowed_for_b2b": "B2B mağazalarında manuel ödemelere izin verilmemektedir.",
+            "positive_amount_expected": "Ödeme tutarı 0'dan büyük olmalıdır.",
+            "total_amount_mismatch": "Toplam ödeme tutarı tüm ödemelerin toplamıyla eşleşmiyor.",
+            "subscription_terms_not_accepted": "Abonelik koşulları kabul edilmedi.",
+            "missing_session_id": "Kredi kartı oturum bilgileri eksik.",
+            "gateway_not_supported": "Ödeme ağ geçidi, ödeme yönteminin kaydedilmesini desteklemiyor.",
+            "credit_card_last_name_required": "\"Soyadı\" boş olamaz.",
+            "credit_card_update_failed": "Kredi kartı güncellenemedi.",
+            "installments_amount_invalid": "Geçersiz taksit işlem tutarı.",
+            "installments_test_mode_not_allowed": "Test moduna izin verilmez.",
+            "installments_gift_card_not_allowed": "Taksit seçeneği hediye çeki kullanımına izin vermemektedir.",
+            "installments_unsupported_currency": "Taksit seçeneği bu para birimini desteklememektedir.",
+            "installments_unsupported_shipping": "Taksit seçeneği bu adrese teslimatı desteklememektedir.",
+            "installments_unsupported_billing": "Taksit seçeneği bu fatura adresini desteklemiyor.",
+            "installments_unsupported_subscriptions": "Taksit seçeneği abonelikleri desteklememektedir.",
+            "installments_ineligible_line_item": "Bu alışverişimizde bir ürün için taksit seçeneği devre dışıdır.",
+            "shop_cash_not_allowed": "Shop Cash, Shop Pay olmadan kullanılamaz.",
+            "shop_cash_gift_card_not_allowed": "Shop Cash, hediye çeki satın alınmasına izin vermez.",
+            "shop_cash_not_enabled": "Shop Cash bu mağazada etkinleştirilmedi.",
+            "shop_cash_unsupported_subscriptions": "Shop Cash abonelikleri desteklemez.",
+            "shop_cash_unsupported_shipping": "Shop Cash, kargo dışı ürünleri desteklemez.",
+            "invalid_address_type": "Sağlanan adres türü bu ödeme yöntemi için geçerli değil.",
+            "missing_retail_attributions": "Kredi kartı ödemelerini manuel olarak girmek için satış kaynak bilgileri gereklidir.",
+            "unexpected_retail_attributions": "Bir kredi kartı ödemesi için satış başlangıç ​​bilgileri beklenmedik bir şekilde sağlandı.",
+            "invalid_card_source": "Bu oturumun bu harita kaynağını kullanma izni yok.",
+            "wallet_content_missing": "Cüzdanın içeriği eksik.",
+            "payment_instrument_not_found": "Ödeme yöntemi algılanmadı.",
+            "unauthorized_capture_method": "Tasarruflu ödeme yönteminin yapılandırılmasına izin verilmiyor.",
+            "saved_payment_methods_not_enabled": "Kaydedilen ödeme yöntemleri bu mağaza için etkinleştirme değildir.",
+            "store_credit_not_enabled": "Bu mağazada mağaza alışveriş tutarları etkin değil.",
+            "store_credit_account_not_found": "Mağaza alışveriş tutarları hesabı bulunamadı.",
+            "store_credit_account_mismatch": "Mağaza alışveriş tutarı profili, alıcının kimliğiyle eşleşmiyor.",
+            "store_credit_mismatched_currency": "Mağaza alışveriş tutarlarına ilişkin hesap para birimi, ödeme para birimiyle eşleşmiyor.",
+            "store_credit_insufficient_funds": "Bu hesapta mağaza içi alışveriş tutarları için yeterli bakiye yok.",
+            "store_credit_buying_gift_card": "Hediye çeki satın almak için mağazadaki satın alma tutarını kullanamazsınız.",
+            "gift_cards_not_allowed_for_b2b": "B2B mağazalarında hediye çeklerine izin verilmemektedir.",
+            "method_required": "Herhangi bir ödeme yöntemi sunulmalıdır.",
+            "market_manager_blocks_wallet_payments": "Ödeme yöntemi pazar yöneticisi tarafından desteklenmiyor.",
+            "saved_payment_methods_cvv_verification_disabled": "Seçilen ödeme yöntemi, bu mağaza için etkin olmayan CVV kimlik doğrulamasını gerektiriyor. Başka bir ödeme yöntemi seçin."
+          },
+          "tip": {
+            "only_one_tip_line_allowed": "Birden fazla ipucu satırı desteklenmez.",
+            "tips_not_allowed_for_b2b": "B2B mağazalarda bahşiş verilmesine izin verilmez.",
+            "tips_not_allowed_for_deferred_purchase_options": "Bahşişler henüz faturalı seçeneklerde desteklenmemektedir."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Taslak sipariş mevcut mağazada mevcut değil.",
+            "staff_member_not_exist": "Bu personel mevcut mağazada mevcut değil.",
+            "location_not_exist": "Bu konum mevcut mağazada mevcut değil.",
+            "point_of_sale_device_not_exist": "Bu satış noktası cihazı mevcut mağazada mevcut değil.",
+            "unresolvable_target_merchandise_lines": "Satışların kaynağına ilişkin önerilen bilgiler, müzakerelerin mevcut bağlamı göz önüne alındığında anlaşılması zor."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "Alıcının teklifi pazarlık konusu olmayan şartlar içermelidir.",
+            "invalid_signature": "{{target_terms}} imzası geçersiz."
+          },
+          "inventory": {
+            "missing_quantity_value": "Alıcının stok satırlarında miktar alanı eksik.",
+            "changing_behavior_not_allowed": "Bu müşterinin envanter davranışını değiştirme izni yok."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "Bu ödeme için görev reddine izin verilmez."
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "Bu ödeme için satış menşei bilgisine izin verilmiyor.",
+            "retail_attribution_required": "Bu ödeme için satış menşei bilgileri gereklidir."
+          },
+          "captcha": {
+            "metadata_missing": "Bu ödeme için captcha kodunun doldurulması gerekmektedir.",
+            "metadata_mismatch": "Belirtilen captcha kodu sağlayıcısı beklenen değerlerle eşleşmiyor.",
+            "token_missing": "Bu ödemeyi tamamlamak için bir captcha kodu sağlamanız gerekir.",
+            "job_enqueue_failed": "Captcha doğrulama görevi sıraya alınamadı.",
+            "job_already_queued": "Captcha kodu doğrulaması bu captcha kodu için zaten sıraya alınmış durumda.",
+            "token_expired": "Girilen captcha kodunun süresi doldu. Ödemeye devam etmek için yeni bir captcha koduyla yeni bir mücadeleyi tamamlayın.",
+            "token_invalid": "Sağlanan captcha kodu geçersiz. Ödemeye devam etmek için yeni bir captcha koduyla yeni bir mücadeleyi tamamlayın.",
+            "token_not_valid_for_session": "Sağlanan captcha kodu bu ödemeyle kullanılamaz."
+          },
+          "fx_reconciliation_override": {
+            "shop_currency_mismatch": "Alınan tutar mağazanın para biriminde olmalıdır."
+          }
+        },
+        "title": "Ödemeye devam edin - {{shopName}}",
+        "full_title": "{{pageTitle}} – {{shopName}} – Ödemeye devam et",
+        "loading_title": "Ödemeye devam edin - {{shopName}}",
+        "google_map_title": "Google'dan harita",
+        "submit_order_button_label": "Sipariş gönderiliyor",
+        "submit_for_review_notice_label": "Siparişiniz incelenene kadar ödeme vadesi dolmayacaktır",
+        "continue_to_payment_plans_button_label": "Ödeme planlarına devam edin",
+        "back_button_label": "Geri",
+        "choose_delivery_strategy": "Bir teslimat yöntemi seçin",
+        "autocomplete_zero_item": "Kullanılabilir öğe yok",
+        "autocomplete_powered_by_google": "{{brandName}} tarafından gönderildi",
+        "submit": "Göndermek",
+        "processing": "İşleme...",
+        "stepper": {
+          "increase": "{{type}} artır",
+          "decrease": "{{type}}'i azalt",
+          "minimum_reached": "Minimum değere ulaşıldı {{value}}",
+          "maximum_reached": "Maksimuma ulaşıldı {{value}}"
+        },
+        "remove_item": "%{label}'i kaldır",
+        "dates": {
+          "weekdays_abbreviation": {
+            "monday": "pazartesi",
+            "tuesday": "Salı",
+            "wednesday": "efendim",
+            "thursday": "ch",
+            "friday": "puan",
+            "saturday": "koleksiyon",
+            "sunday": "Güneş"
+          }
+        },
+        "datepicker": {
+          "show_next_month": "Gelecek ayı göster, {{month}} {{year}}",
+          "range_start": "Aralığın başlangıcı",
+          "in_range": "Kapsama alanında",
+          "range_end": "Kapsam sonu"
+        },
+        "map": {
+          "cluster_title": {
+            "one": "{{number}} etiketten oluşan bir grup",
+            "other": "{{number}} etiketten oluşan bir grup"
+          }
+        }
+      },
+      "contact": {
+        "delivery_option_title": "Teslimat yolu",
+        "contact_method_title": "Temas etmek",
+        "email_or_phone_label": "E-posta adresi veya cep telefonu numarası",
+        "email_or_phone_placeholder": "E-posta adresi veya cep telefonu numarası",
+        "stored_addresses_label": "Kayıtlı adresler",
+        "new_address_label": "Yeni bir adres kullanma",
+        "first_name_label": "Adı",
+        "address2_label": "Kat, daire vb.",
+        "optional_address2_label": "Kat, daire vb. (isteğe bağlı)",
+        "country_code": "Ülke/Bölge Kodu",
+        "province_label": "Vilayet",
+        "province_placeholder": "Vilayet",
+        "county_label": "Semt",
+        "county_placeholder": "Semt",
+        "state_label": "Durum",
+        "state_placeholder": "Durum",
+        "prefecture_label": "idari bölge",
+        "prefecture_placeholder": "idari bölge",
+        "state_and_territory_label": "Eyalet/Bölge",
+        "state_and_territory_placeholder": "Eyalet/Bölge",
+        "optional_phone_label": "İsteğe bağlı telefon)",
+        "pincode_label": "PIN kodu",
+        "pincode_placeholder": "PIN kodu",
+        "region_none": "Hiçbir şey seçilmedi",
+        "civic_number_warning": "Varsa ev numarasını ekleyin",
+        "optional_recipient_label": "Dikkatine (isteğe bağlı)",
+        "different_shipping_address_label": "Başka bir adrese gönderim",
+        "change_company_location_link_label": "Şirketin yerinin değiştirilmesi",
+        "change_location_link_label": "yer değiştir",
+        "ship_to_company": "{{companyName}} adresine teslimat",
+        "shipping_used_as_billing_notice": "Aynı zamanda bu siparişin fatura adresi olarak da hizmet verecektir.",
+        "company_attention_label": "Şirketin/dikkatinin",
+        "optional_company_attention_label": "Şirketin/İlgisinin"
+      },
+      "delivery_options": {
+        "ship": "Gönderiliyor",
+        "pick_up": "Alma",
+        "pick_up_in_two_hours": "Genellikle 2 saatte hazır oluyor",
+        "pick_up_in_four_hours": "Genellikle 4 saatte hazır olur",
+        "pick_up_immediately": "Şimdi teslim almaya hazır",
+        "pick_up_next_day": "Ertesi gün almaya hazır",
+        "pick_up_in_one_hour": "Genellikle 1 saatte hazır oluyor",
+        "pick_up_in_twenty_four_hours": "Genellikle 24 saat içinde hazır olur",
+        "pick_up_in_two_to_four_days": "Genellikle 2-4 gün içinde hazır olur",
+        "pick_up_in_five_or_more_days": "Genellikle 5+ gün içinde hazır olur",
+        "pick_up_in_zero_to_two_hours": "2 saat içinde teslime hazır",
+        "pick_up_in_two_to_four_hours": "4 saat içinde teslim alınmaya hazır",
+        "shipping_address": "Gönderi Adresi",
+        "pick_up_locations": "Teslim alma yerleri",
+        "retail_method_definition": "Bir perakende müşteriye gönderim",
+        "pickup_point_method_definition": "Teslim alma yerine teslimat",
+        "none_method_definition": "Teslimat olmadan",
+        "subscription_pickup_information": "Bu gönderim yöntemi, siparişteki tüm ürünler ve bu abonelikle ilişkili gelecekteki tüm siparişler için kullanılacaktır.",
+        "ship_to_address": "Adrese teslimat",
+        "pick_up_from_store": "Mağazadan teslim alma"
+      },
+      "customer_account": {
+        "not_user_label": "Sen %{first_name} değil misin?",
+        "sign_in_link_label": "Giriş yapmak",
+        "sign_out_link_label": "Dışarı çıkmak",
+        "save_my_information_label": "Bu bilgiyi bir dahaki sefere kaydetmek",
+        "invalid_address": "Seçilen adres geçersiz. %{update_address_link} veya başka bir adres seçin.",
+        "incomplete_address": "Seçilen adres eksik. %{update_address_link} veya başka bir adres seçin.",
+        "rollup_label": "profil",
+        "invalid_shipping_method_summary": "Mevcut gönderim seçeneklerini görüntülemek için geçerli bir gönderim adresi seçin"
+      },
+      "stock": {
+        "title": "Stoklar tükendi",
+        "items_unavailable_notice": "Bazı öğeler artık mevcut değil.",
+        "quantity_column_header": "Miktar",
+        "removed_from_cart_notice": "Sepetinizden kaldırıldı",
+        "sold_out_label": "Yorgun",
+        "reduced_label": "Azaltılmış",
+        "reduced_with_quantity_label": "Yalnızca %{quantity_available} kaldı",
+        "remove_from_cart_button_label": "Sepetten kaldır",
+        "continue_shopping_button_label": "Devam etmek",
+        "go_back_to_cart_button_label": "Sepete geri dön",
+        "remove": "Kaldırma",
+        "empty_cart_label": "Sepetiniz boş.",
+        "quantity_update": {
+          "page_title": "Güncelleme miktarı",
+          "title": "Güncelleme miktarı",
+          "description": "Bu ürünler için sepetinizdeki mevcut adetler değiştirildi ve güncellendi."
+        },
+        "unpurchasable_product": {
+          "title": "Satın alınamayacak bir ürün",
+          "header": "Sepetinizden bazı ürünler kaldırıldı",
+          "message": "Bu ürünler B2B siparişlerinde mevcut değildir.",
+          "status_column_header": "Müsait değil"
+        },
+        "unpurchasable_product_generic": {
+          "title": "Satın alınamayacak bir ürün",
+          "header": "Sepetinizden bazı ürünler kaldırıldı",
+          "message": "Bu öğeler mevcut değil.",
+          "status_column_header": "Müsait değil"
+        },
+        "unshippable_product": {
+          "title": "Teslimat mevcut değil",
+          "header": {
+            "one": "%{count} öğe için teslimat mevcut değil",
+            "other": "%{count} öğe için teslimat mevcut değil"
+          },
+          "message": {
+            "one": "Bu ürün, adresinize gönderim imkanı olmadığından sepetinizden kaldırılacaktır.",
+            "other": "Bu ürünler, adresinize gönderim imkanı olmadığından sepetinizden kaldırılacaktır."
+          },
+          "status_column_header": "Teslimat yok"
+        },
+        "price_update": {
+          "description": "Bu ürünlerin sepetinizdeki fiyatları değiştirilip güncellenmiştir."
+        },
+        "item_label": {
+          "one": "{{count}} öğe",
+          "other": "Eklemli {{count}}"
+        },
+        "continue_cta_label": "Çıkışa doğru devam et",
+        "out_of_stock": {
+          "description": "Bu ürünler artık mevcut değil ve sepetinizden kaldırıldı."
+        }
+      },
+      "order_summary": {
+        "title": "sipariş özeti",
+        "order_name_label": "Sipariş %{name}",
+        "shopping_cart_label": "Alışveriş Sepeti",
+        "gift_card_title": "Hediye çeki",
+        "gift_card_label": "Hediye çeki",
+        "gift_card_placeholder": "Hediye çeki",
+        "gift_card_and_discount_title": "İndirim kodu veya hediye çeki",
+        "gift_card_and_discount_label": "İndirim kodu veya hediye çeki",
+        "gift_card_and_discount_placeholder": "İndirim kodu veya hediye çeki",
+        "remove_gift_card_label": "Hediye çeki kullanımı",
+        "applied_discount_message": "%{amount} siparişin toplam fiyatı üzerinden indirim",
+        "gift_card_has_been_applied": "Kupon eklendi",
+        "gift_card_has_been_removed": "Kupon kaldırıldı",
+        "discount_already_applied": "Siparişe bir indirim eklenmiştir. Başka bir tane ekleyemezsiniz.",
+        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> indirim kodu sepetinizdeki ürünler için geçerli değil",
+        "discount_requires_customer_notice": "İndirim kodunu uygulamak için gönderim bilgilerinizi girin <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "customer_does_not_meet_discount_requirements_notice": "Şu anda <strong style=\"text-transform:uppercase\">%{code}</strong> indirim kodunu kullanamazsınız",
+        "shipping_information_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> indirim kodu gönderim adresiniz için kullanılamaz",
+        "customer_already_used_once_per_customer_discount_notice": "İndirim kodu <strong style=\"text-transform:uppercase\">%{code}</strong> zaten kullanıldı",
+        "subtotal_label": "ara toplam",
+        "shipping_label": "Teslimat",
+        "pickup_label": "Alma",
+        "no_pickup_location": "Bu sipariş için teslim alma işlemi geçerli değildir. Başka bir gönderim yöntemi seçin.",
+        "tip_label": "Tavsiye",
+        "calculating_shipping": "Hesaplama...",
+        "shipping_pending_value": "–",
+        "shipping_pending_message": "Henüz mevcut değil",
+        "shipping_policy_link": "Kargo ücretleri",
+        "total_outstanding_label": "Ödenecek meblağ",
+        "paid_label": "Paralı",
+        "payment_due_label": "Ödeme zamanı",
+        "vat_label_html": "Vergiler için %{amount} dahil",
+        "discount_and_gift_card_savings_notice": "%{discount_amount} ve %{gift_card_amount} hediye çeki indirimlerinden sonra",
+        "discount_savings_notice": "%{discount_amount} indirimlerinden sonra",
+        "gift_card_savings_notice": "%{gift_card_amount} hediye kuponundan sonra",
+        "description_label": "Tanım",
+        "quantity_label": "Miktar",
+        "product_change_label": "Bir değişiklik",
+        "product_image_label": "Ürün resmi",
+        "scroll_order_summary": "Daha fazla öğe için kaydırın",
+        "expand_order_summary_short": "göstermek",
+        "collapse_order_summary_short": "Saklamak",
+        "total_updated_label": "Güncellenen Toplam Fiyat:",
+        "order_total_updated_label": "Toplam güncellendi",
+        "total_already_paid_label": "Paralı",
+        "unit_price": {
+          "accessible_separator": "için"
+        },
+        "estimated_taxes_label": "Beklenen vergiler",
+        "information_estimated_taxes_label": "Vergiler (yaklaşık)",
+        "gift_card_ending": "%{last_characters} ile biten hediye çeki",
+        "estimated_tax_label": "Beklenen vergiler",
+        "multiple_shipping_lines_label": "Nakliye toplamı",
+        "applied_free_shipping_discount_label": "Ekli",
+        "original_price": "Başlangıç fiyatı",
+        "sale_price": "Satış ücreti",
+        "recurring_subtotal_label": "Yinelenen siparişler için ara toplam",
+        "recurring_total_label": "Yinelenen siparişin toplam tutarı",
+        "recurring_total_tooltip": "Nakliye, vergiler, harçlar veya geçerli indirimler hariçtir.",
+        "gift_card_subscriptions_notice": "Hediye çekleri yalnızca ilk ödemede geçerlidir",
+        "confirmation_number_label": "Onay #%{confirmation_number}",
+        "estimated_taxes_finalization_tooltip_content": "Vergilerin nihai tutarı ve toplam tutar, siparişi verdikten sonra e-posta veya kısa mesaj yoluyla onaylanacaktır.",
+        "deferred_payment_info": {
+          "title": "%{due_at} nedeniyle %{amount_due} tutarında ödeme var",
+          "description_html": "Siparişinizle ilgili sorularınız için %{contact_us}.",
+          "paid_today": "Bugün ödenen toplam tutar",
+          "due_on_fulfillment_title": "%{amount_due} tutarındaki ödeme siparişin tamamlanmasından sonra yapılacaktır",
+          "due_on_receipt_title": "Makbuz üzerine %{amount_due} tutarında bir ödeme yapılması gerekiyor"
+        },
+        "percent_off_shipping": "Gönderimde %%{percent} indirim",
+        "amount_off_shipping": "%{amount} gönderimde indirim",
+        "payment_terms_totals": {
+          "due_today": "Bugün ödenmesi gereken toplam tutar",
+          "due_later": "%{due_at} nedeniyle ödenecek toplam tutar",
+          "due_later_checkout_to_draft": "Daha sonra ödenmesi gereken toplam tutar",
+          "due_on_fulfillment": "Performans nedeniyle ödenmesi gereken toplam tutar",
+          "due_on_receipt": "Alındığında ödenmesi gereken toplam tutar",
+          "total_paid": "Toplamda ödenen miktar"
+        },
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> mevcut indirimlerinizle birlikte kullanılamaz.",
+        "maximum_discount_code_limit_reached": "Maksimum indirim kodu sayısına ulaştınız. <strong style=\"text-transform:uppercase\">%{code}</strong>'i kullanmak için mevcut tüm kodları kaldırın.",
+        "order_total_label": "Siparişin toplam tutarı",
+        "due_on_fulfillment": "Performansa bağlı olarak",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> şu anda kullanılamıyor. Yardım için bizimle iletişime geçin.",
+        "subscriptions": "Abonelikler",
+        "duties_label": "Rüşvet",
+        "duties_and_taxes_label": "Görevler ve vergiler",
+        "error_duties_tooltip": "Bu sipariş başka bir ülkeden gönderildiğinden teslimatta vergi ve harçlar tahsil edilebilir.",
+        "may_be_charged_on_delivery": "Teslimatta ücretlendirilebilir",
+        "total_updated_label_with_price": "Güncellenen Toplam Fiyat: %{totalPrice}",
+        "recurring_payments": "Periyodik ödemeler",
+        "recurring_total_multiple_label": "Bu sipariş, birden fazla öğe için yinelenen faturalandırma içeriyor.",
+        "deferred_total_due_date_label": "{{date}} nedeniyle ödenecek toplam tutar",
+        "custom_discount": "İsteğe bağlı indirim",
+        "expand_component_information": {
+          "one": "%{count} öğe gösteriliyor",
+          "other": "%{count} öğe gösteriliyor"
+        },
+        "collapse_component_information": {
+          "one": "%{count} öğeyi gizle",
+          "other": "%{count} öğeyi gizle"
+        },
+        "component_quantity_title": "%{quantity} × %{product_title}",
+        "discount_discovery": {
+          "merchandise_quantity_label": {
+            "one": "%{count} öğe",
+            "other": "Eklemli %{count}"
+          }
+        },
+        "alternative_payment_currency_total": "%{amount_due} olarak faturalandırıldı",
+        "calculating": "Hesaplama...",
+        "group_title_label": "\"%{group_title}\" parçası",
+        "discount_order_stacking": {
+          "other": "İndirim siparişi verin"
+        },
+        "price_per_item": {
+          "accessibility_label": "sayı için %{price}",
+          "label": "%{price}/no."
+        },
+        "updated_shipping_method": "Güncellenen ödeme yöntemi: %{shipping_method}",
+        "discount_not_found": "Girilen kodla eşleşen geçerli bir indirim bulunamadı",
+        "total_savings": "Toplamda tasarruf edersiniz",
+        "return_restocking_fee_label": "Depoya iade ücreti",
+        "return_shipping_fee_label": "İade gönderimi",
+        "enter_shipping_address": "Bir teslimat adresi girin",
+        "shipping_discount_title": "Nakliye indirimi",
+        "discount_code_applied": "İndirim kodu ektedir",
+        "gift_card_applied": "Kupon eklendi",
+        "duties_included_label": "Toplam tutara vergiler ve harçlar dahildir. Ek nakliye ücreti yok."
+      },
+      "payment": {
+        "amazon_payments_label": "Amazon Ödemesi",
+        "amazon_payments_login_hint": "Amazon hesabınızda oturum açmanız istenecektir.",
+        "amazon_payments_logout": "Amazon Pay'den çıkış yapın",
+        "amazon_payments_failed_mfa_challenge": "Seçilen ödeme yöntemi kullanılamıyor. Başka bir tane seçin veya bankanızla ya da kartınızı veren kuruluşla iletişime geçin.",
+        "amazon_payments_abandoned_mfa_challenge": "Ödemeniz işleme alınamadı. Başka bir ödeme yöntemi deneyin veya bankanızla ya da kartınızı veren kuruluşla iletişime geçin.",
+        "amazon_payments_could_not_enqueue_authorize": "Ödemeniz işleme koyulurken bir sorun oluştu. Tekrar deneyin veya başka bir ödeme yöntemi kullanın.",
+        "amount_left_to_pay_label": "Ödeme vadesi:",
+        "discount_button_action_label": "İndirim kodunu uygula"
+      }
     }
   }
 }
